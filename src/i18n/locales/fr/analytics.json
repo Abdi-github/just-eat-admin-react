@@ -1,0 +1,69 @@
+{
+  "title": "Analytique",
+  "stats": {
+    "totalOrders": "Total des commandes",
+    "totalRevenue": "Chiffre d'affaires total",
+    "restaurants": "Restaurants",
+    "users": "Utilisateurs",
+    "delivered": "livrées",
+    "active": "actifs",
+    "avgOrder": "Commande moy.",
+    "newInPeriod": "nouveaux sur la période"
+  },
+  "dateRange": {
+    "preset": "Période",
+    "custom": "Personnalisée",
+    "from": "Du",
+    "to": "Au",
+    "apply": "Appliquer",
+    "period": "Période",
+    "presets": {
+      "today": "Aujourd'hui",
+      "yesterday": "Hier",
+      "this_week": "Cette semaine",
+      "this_month": "Ce mois-ci",
+      "last_7_days": "7 derniers jours",
+      "last_30_days": "30 derniers jours",
+      "last_90_days": "90 derniers jours",
+      "this_year": "Cette année"
+    },
+    "periods": {
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel"
+    }
+  },
+  "charts": {
+    "revenueOverTime": "Évolution du chiffre d'affaires",
+    "revenue": "Chiffre d'affaires",
+    "orders": "Commandes",
+    "orderStatusBreakdown": "Répartition par statut de commande",
+    "orderTypeBreakdown": "Type de commande",
+    "paymentMethodBreakdown": "Méthodes de paiement",
+    "restaurantStatusBreakdown": "Statut des restaurants",
+    "restaurantSummary": "Résumé des restaurants",
+    "topRestaurants": "Top restaurants",
+    "count": "Nombre",
+    "noData": "Aucune donnée disponible pour la période sélectionnée",
+    "orderTypes": {
+      "delivery": "Livraison",
+      "pickup": "À emporter"
+    },
+    "paymentMethods": {
+      "stripe_card": "Carte de crédit",
+      "twint": "TWINT",
+      "postfinance": "PostFinance",
+      "cash": "Espèces"
+    }
+  },
+  "table": {
+    "rank": "#",
+    "restaurant": "Restaurant",
+    "orders": "Commandes",
+    "revenue": "Chiffre d'affaires",
+    "avgOrder": "Commande moy."
+  },
+  "errors": {
+    "loadFailed": "Impossible de charger les données analytiques. Veuillez réessayer plus tard."
+  }
+}

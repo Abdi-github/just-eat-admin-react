@@ -1,0 +1,59 @@
+{
+  "title": "Notifications",
+  "form": {
+    "title": "Send Notification",
+    "userIds": "User IDs",
+    "userIdsPlaceholder": "Enter user IDs (one per line or comma-separated)",
+    "userIdsHelp": "Enter user IDs separated by commas or new lines",
+    "type": "Notification Type",
+    "channel": "Channel",
+    "priority": "Priority",
+    "notifTitle": "Title",
+    "titlePlaceholder": "Notification title (max 200 characters)",
+    "body": "Message",
+    "bodyPlaceholder": "Notification message (max 2000 characters)",
+    "send": "Send Notification",
+    "sending": "Sending..."
+  },
+  "types": {
+    "ORDER_PLACED": "Order Placed",
+    "ORDER_ACCEPTED": "Order Accepted",
+    "ORDER_REJECTED": "Order Rejected",
+    "ORDER_PREPARING": "Order Preparing",
+    "ORDER_READY": "Order Ready",
+    "ORDER_PICKED_UP": "Order Picked Up",
+    "ORDER_IN_TRANSIT": "Order In Transit",
+    "ORDER_DELIVERED": "Order Delivered",
+    "ORDER_CANCELLED": "Order Cancelled",
+    "PAYMENT_RECEIVED": "Payment Received",
+    "PAYMENT_REFUNDED": "Payment Refunded",
+    "RESTAURANT_APPROVED": "Restaurant Approved",
+    "RESTAURANT_REJECTED": "Restaurant Rejected",
+    "RESTAURANT_PUBLISHED": "Restaurant Published",
+    "RESTAURANT_SUSPENDED": "Restaurant Suspended",
+    "REVIEW_APPROVED": "Review Approved",
+    "REVIEW_REJECTED": "Review Rejected",
+    "PROMOTION_AVAILABLE": "Promotion Available",
+    "ACCOUNT_UPDATE": "Account Update",
+    "SYSTEM": "System"
+  },
+  "channels": {
+    "IN_APP": "In-App",
+    "EMAIL": "Email",
+    "BOTH": "Both (In-App + Email)"
+  },
+  "priorities": {
+    "LOW": "Low",
+    "NORMAL": "Normal",
+    "HIGH": "High",
+    "URGENT": "Urgent"
+  },
+  "messages": {
+    "sendSuccess": "Notification sent to {{count}} user(s)",
+    "lastSent": "Last notification sent to {{count}} user(s)"
+  },
+  "errors": {
+    "noUsers": "Please enter at least one user ID",
+    "sendFailed": "Failed to send notification. Please try again."
+  }
+}

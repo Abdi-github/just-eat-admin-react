@@ -1,0 +1,53 @@
+{
+  "title": "Brands",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "status": "Status",
+    "active": "Active",
+    "logo": "Logo",
+    "restaurants": "Restaurants"
+  },
+  "filters": {
+    "searchPlaceholder": "Search brands..."
+  },
+  "sort": {
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "newestFirst": "Newest first",
+    "oldestFirst": "Oldest first"
+  },
+  "list": {
+    "results": "brands"
+  },
+  "form": {
+    "createTitle": "Create Brand",
+    "editTitle": "Edit Brand",
+    "namePlaceholder": "Brand name",
+    "slugPlaceholder": "auto-generated-slug",
+    "slugHint": "Leave empty to auto-generate from name"
+  },
+  "actions": {
+    "create": "New Brand"
+  },
+  "logo": {
+    "title": "Logo",
+    "upload": "Upload Logo",
+    "change": "Change Logo",
+    "remove": "Remove",
+    "removeTitle": "Remove Logo",
+    "removeConfirm": "Are you sure you want to remove the logo?",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Logo uploaded successfully",
+    "deleteSuccess": "Logo removed successfully",
+    "invalidType": "Only JPEG, PNG, WebP and SVG files are allowed",
+    "tooLarge": "File must be smaller than 5 MB",
+    "hint": "JPEG, PNG, WebP or SVG, max 5 MB"
+  },
+  "messages": {
+    "created": "Brand created successfully",
+    "updated": "Brand updated successfully",
+    "deleted": "Brand deleted successfully",
+    "confirmDelete": "Are you sure you want to delete the brand \"{{name}}\"?"
+  }
+}

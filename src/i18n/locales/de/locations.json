@@ -1,0 +1,78 @@
+{
+  "title": "Standorte",
+  "cantons": {
+    "title": "Kantone",
+    "searchPlaceholder": "Kantone suchen...",
+    "results": "Kantone",
+    "fields": {
+      "code": "Code",
+      "name": "Name",
+      "slug": "Slug",
+      "status": "Status",
+      "active": "Aktiv",
+      "cities": "Städte"
+    },
+    "sort": {
+      "codeAZ": "Code A–Z",
+      "codeZA": "Code Z–A",
+      "newestFirst": "Neueste zuerst",
+      "oldestFirst": "Älteste zuerst"
+    },
+    "form": {
+      "createTitle": "Kanton erstellen",
+      "editTitle": "Kanton bearbeiten",
+      "nameSection": "Name (alle Sprachen)",
+      "namePlaceholder": "Name auf {{lang}}",
+      "slugPlaceholder": "automatisch-generiert",
+      "slugHint": "Leer lassen für automatische Generierung",
+      "codeHint": "2-Buchstaben Kantonscode (z.B. ZH, BE)"
+    },
+    "actions": {
+      "create": "Neuer Kanton"
+    },
+    "messages": {
+      "created": "Kanton erfolgreich erstellt",
+      "updated": "Kanton erfolgreich aktualisiert",
+      "deleted": "Kanton erfolgreich gelöscht",
+      "confirmDelete": "Möchten Sie den Kanton \"{{name}}\" wirklich löschen?"
+    }
+  },
+  "cities": {
+    "title": "Städte",
+    "searchPlaceholder": "Städte suchen...",
+    "results": "Städte",
+    "allCantons": "Alle Kantone",
+    "fields": {
+      "name": "Name",
+      "canton": "Kanton",
+      "slug": "Slug",
+      "postalCodes": "Postleitzahlen",
+      "status": "Status",
+      "active": "Aktiv"
+    },
+    "sort": {
+      "nameAZ": "Name A–Z",
+      "nameZA": "Name Z–A",
+      "newestFirst": "Neueste zuerst"
+    },
+    "form": {
+      "createTitle": "Stadt erstellen",
+      "editTitle": "Stadt bearbeiten",
+      "nameSection": "Name (alle Sprachen)",
+      "namePlaceholder": "Name auf {{lang}}",
+      "slugPlaceholder": "automatisch-generiert",
+      "slugHint": "Leer lassen für automatische Generierung",
+      "selectCanton": "Kanton auswählen",
+      "addPostalCode": "Postleitzahl hinzufügen"
+    },
+    "actions": {
+      "create": "Neue Stadt"
+    },
+    "messages": {
+      "created": "Stadt erfolgreich erstellt",
+      "updated": "Stadt erfolgreich aktualisiert",
+      "deleted": "Stadt erfolgreich gelöscht",
+      "confirmDelete": "Möchten Sie die Stadt \"{{name}}\" wirklich löschen?"
+    }
+  }
+}

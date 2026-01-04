@@ -1,0 +1,59 @@
+{
+  "title": "Notifications",
+  "form": {
+    "title": "Envoyer une notification",
+    "userIds": "IDs utilisateurs",
+    "userIdsPlaceholder": "Entrez les IDs utilisateurs (un par ligne ou séparés par des virgules)",
+    "userIdsHelp": "Séparez les IDs par des virgules ou des sauts de ligne",
+    "type": "Type de notification",
+    "channel": "Canal",
+    "priority": "Priorité",
+    "notifTitle": "Titre",
+    "titlePlaceholder": "Titre de la notification (max. 200 caractères)",
+    "body": "Message",
+    "bodyPlaceholder": "Contenu de la notification (max. 2000 caractères)",
+    "send": "Envoyer la notification",
+    "sending": "Envoi en cours..."
+  },
+  "types": {
+    "ORDER_PLACED": "Commande passée",
+    "ORDER_ACCEPTED": "Commande acceptée",
+    "ORDER_REJECTED": "Commande refusée",
+    "ORDER_PREPARING": "Commande en préparation",
+    "ORDER_READY": "Commande prête",
+    "ORDER_PICKED_UP": "Commande récupérée",
+    "ORDER_IN_TRANSIT": "Commande en route",
+    "ORDER_DELIVERED": "Commande livrée",
+    "ORDER_CANCELLED": "Commande annulée",
+    "PAYMENT_RECEIVED": "Paiement reçu",
+    "PAYMENT_REFUNDED": "Paiement remboursé",
+    "RESTAURANT_APPROVED": "Restaurant approuvé",
+    "RESTAURANT_REJECTED": "Restaurant refusé",
+    "RESTAURANT_PUBLISHED": "Restaurant publié",
+    "RESTAURANT_SUSPENDED": "Restaurant suspendu",
+    "REVIEW_APPROVED": "Avis approuvé",
+    "REVIEW_REJECTED": "Avis refusé",
+    "PROMOTION_AVAILABLE": "Promotion disponible",
+    "ACCOUNT_UPDATE": "Mise à jour du compte",
+    "SYSTEM": "Système"
+  },
+  "channels": {
+    "IN_APP": "In-App",
+    "EMAIL": "E-mail",
+    "BOTH": "Les deux (In-App + E-mail)"
+  },
+  "priorities": {
+    "LOW": "Basse",
+    "NORMAL": "Normale",
+    "HIGH": "Haute",
+    "URGENT": "Urgente"
+  },
+  "messages": {
+    "sendSuccess": "Notification envoyée à {{count}} utilisateur(s)",
+    "lastSent": "Dernière notification envoyée à {{count}} utilisateur(s)"
+  },
+  "errors": {
+    "noUsers": "Veuillez entrer au moins un ID utilisateur",
+    "sendFailed": "Échec de l'envoi de la notification. Veuillez réessayer."
+  }
+}

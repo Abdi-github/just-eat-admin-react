@@ -1,0 +1,101 @@
+{
+  "title": "Bestellungen",
+  "subtitle": "Alle Plattform-Bestellungen überwachen und verwalten",
+  "fields": {
+    "orderNumber": "Bestellnummer",
+    "restaurant": "Restaurant",
+    "customer": "Kunde",
+    "courier": "Kurier",
+    "status": "Status",
+    "orderType": "Bestellart",
+    "total": "Gesamt",
+    "subtotal": "Zwischensumme",
+    "deliveryFee": "Liefergebühr",
+    "serviceFee": "Servicegebühr",
+    "tip": "Trinkgeld",
+    "discount": "Rabatt",
+    "paymentMethod": "Zahlungsmethode",
+    "paymentStatus": "Zahlungsstatus",
+    "placedAt": "Aufgegeben am",
+    "acceptedAt": "Angenommen am",
+    "rejectedAt": "Abgelehnt am",
+    "preparingAt": "Zubereitung am",
+    "readyAt": "Bereit am",
+    "pickedUpAt": "Abgeholt am",
+    "inTransitAt": "In Zustellung am",
+    "deliveredAt": "Geliefert am",
+    "cancelledAt": "Storniert am",
+    "estimatedDelivery": "Geschätzte Lieferung",
+    "specialInstructions": "Besondere Anweisungen",
+    "rejectionReason": "Ablehnungsgrund",
+    "cancellationReason": "Stornierungsgrund",
+    "orderId": "Bestell-ID",
+    "userId": "Benutzer-ID",
+    "restaurantId": "Restaurant-ID",
+    "courierId": "Kurier-ID",
+    "deliveryAddressId": "Lieferadress-ID"
+  },
+  "filters": {
+    "searchOrderNumber": "Nach Bestellnummer suchen...",
+    "allStatuses": "Alle Status",
+    "allTypes": "Alle Typen",
+    "allPaymentMethods": "Alle Zahlungsmethoden",
+    "allPaymentStatuses": "Alle Zahlungsstatus",
+    "dateFrom": "Von Datum",
+    "dateTo": "Bis Datum"
+  },
+  "sort": {
+    "newestFirst": "Neueste zuerst",
+    "oldestFirst": "Älteste zuerst",
+    "highestTotal": "Höchster Betrag",
+    "lowestTotal": "Niedrigster Betrag",
+    "recentlyPlaced": "Kürzlich aufgegeben",
+    "earliestPlaced": "Früheste Bestellung"
+  },
+  "orderType": {
+    "delivery": "Lieferung",
+    "pickup": "Abholung"
+  },
+  "paymentMethod": {
+    "card": "Karte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Bargeld"
+  },
+  "paymentStatus": {
+    "pending": "Ausstehend",
+    "processing": "In Bearbeitung",
+    "paid": "Bezahlt",
+    "failed": "Fehlgeschlagen",
+    "refunded": "Erstattet"
+  },
+  "sections": {
+    "items": "Bestellpositionen",
+    "priceBreakdown": "Preisaufschlüsselung",
+    "timeline": "Bestellzeitachse",
+    "references": "Referenzen & IDs"
+  },
+  "itemFields": {
+    "name": "Artikel",
+    "quantity": "Menge",
+    "unitPrice": "Einzelpreis",
+    "totalPrice": "Gesamt"
+  },
+  "timeline": {
+    "noEvents": "Keine Zeitleisten-Ereignisse aufgezeichnet"
+  },
+  "actions": {
+    "backToList": "Zurück zu Bestellungen",
+    "overrideStatus": "Status überschreiben"
+  },
+  "modals": {
+    "rejectTitle": "Bestellung ablehnen",
+    "rejectDescription": "Bitte geben Sie einen Grund für die Ablehnung dieser Bestellung an.",
+    "cancelTitle": "Bestellung stornieren",
+    "cancelDescription": "Bitte geben Sie einen Grund für die Stornierung dieser Bestellung an.",
+    "reasonPlaceholder": "Grund eingeben (min. 3 Zeichen)..."
+  },
+  "messages": {
+    "statusUpdated": "Bestellstatus erfolgreich aktualisiert"
+  }
+}

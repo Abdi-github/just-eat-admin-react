@@ -1,0 +1,24 @@
+{
+  "title": "Paramètres",
+  "language": {
+    "title": "Langue",
+    "description": "Choisissez la langue d'affichage de l'interface d'administration. Le contenu de l'API sera également retourné dans la langue sélectionnée.",
+    "select": "Langue de l'interface"
+  },
+  "display": {
+    "title": "Affichage",
+    "description": "Personnalisez l'apparence du tableau de bord d'administration.",
+    "collapseSidebar": "Réduire la barre latérale par défaut"
+  },
+  "about": {
+    "title": "À propos",
+    "appName": "Application",
+    "version": "Version",
+    "apiUrl": "URL de l'API"
+  },
+  "danger": {
+    "title": "Zone de danger",
+    "description": "Ces actions sont irréversibles. La suppression des données locales vous déconnectera.",
+    "clearData": "Supprimer les données locales & Déconnexion"
+  }
+}

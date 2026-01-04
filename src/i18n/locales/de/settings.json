@@ -1,0 +1,24 @@
+{
+  "title": "Einstellungen",
+  "language": {
+    "title": "Sprache",
+    "description": "Wählen Sie die Anzeigesprache für die Admin-Oberfläche. API-Inhalte werden ebenfalls in der gewählten Sprache zurückgegeben.",
+    "select": "Oberflächensprache"
+  },
+  "display": {
+    "title": "Anzeige",
+    "description": "Passen Sie das Erscheinungsbild des Admin-Dashboards an.",
+    "collapseSidebar": "Seitenleiste standardmässig einklappen"
+  },
+  "about": {
+    "title": "Über",
+    "appName": "Anwendung",
+    "version": "Version",
+    "apiUrl": "API-URL"
+  },
+  "danger": {
+    "title": "Gefahrenzone",
+    "description": "Diese Aktionen sind unwiderruflich. Das Löschen lokaler Daten meldet Sie ab.",
+    "clearData": "Lokale Daten löschen & Abmelden"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Zahlungen",
+  "subtitle": "Zahlungstransaktionsverwaltung",
+  "table": {
+    "id": "Transaktions-ID",
+    "amount": "Betrag",
+    "method": "Methode",
+    "provider": "Anbieter",
+    "status": "Status",
+    "attempts": "Versuche",
+    "date": "Datum",
+    "orderId": "Bestell-ID"
+  },
+  "filters": {
+    "allStatuses": "Alle Status",
+    "allMethods": "Alle Methoden",
+    "paymentMethod": "Zahlungsmethode",
+    "orderId": "Bestell-ID",
+    "orderIdPlaceholder": "Nach Bestell-ID filtern..."
+  },
+  "status": {
+    "PENDING": "Ausstehend",
+    "PROCESSING": "In Bearbeitung",
+    "COMPLETED": "Abgeschlossen",
+    "FAILED": "Fehlgeschlagen",
+    "REFUNDED": "Erstattet",
+    "PARTIAL_REFUND": "Teilerstattung",
+    "CANCELLED": "Storniert",
+    "EXPIRED": "Abgelaufen"
+  },
+  "methods": {
+    "card": "Kreditkarte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Bargeld"
+  },
+  "detail": {
+    "title": "Transaktionsdetails",
+    "transactionInfo": "Transaktionsinformationen",
+    "transactionId": "Transaktions-ID",
+    "orderId": "Bestell-ID",
+    "userId": "Benutzer-ID",
+    "amount": "Betrag",
+    "currency": "Währung",
+    "attempts": "Versuche",
+    "paymentMethod": "Zahlungsmethode",
+    "method": "Methode",
+    "provider": "Anbieter",
+    "providerTxId": "Anbieter-Transaktions-ID",
+    "cashConfirmed": "Bargeld bestätigt",
+    "cashCollectedAt": "Bargeld eingesammelt am",
+    "refundInfo": "Erstattungsinformationen",
+    "refundAmount": "Erstattungsbetrag",
+    "refundReason": "Erstattungsgrund",
+    "refundedAt": "Erstattet am",
+    "errorInfo": "Fehlerinformationen",
+    "errorCode": "Fehlercode",
+    "errorMessage": "Fehlermeldung",
+    "timestamps": "Zeitstempel",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "sessionExpiresAt": "Sitzung läuft ab am"
+  },
+  "refund": {
+    "title": "Erstattung verarbeiten",
+    "transactionAmount": "Transaktionsbetrag",
+    "type": "Erstattungsart",
+    "fullRefund": "Vollständige Erstattung",
+    "partialRefund": "Teilerstattung",
+    "amount": "Erstattungsbetrag",
+    "maxAmount": "Maximum: {{amount}}",
+    "reason": "Grund",
+    "reasonPlaceholder": "Erstattungsgrund eingeben (optional)...",
+    "submit": "Erstattung verarbeiten",
+    "processing": "Wird verarbeitet..."
+  },
+  "messages": {
+    "noTransactions": "Keine Transaktionen gefunden",
+    "refundSuccess": "Erstattung erfolgreich verarbeitet",
+    "refundError": "Erstattung konnte nicht verarbeitet werden",
+    "notFound": "Zahlungstransaktion nicht gefunden",
+    "cannotRefund": "Diese Transaktion kann nicht erstattet werden. Nur abgeschlossene Zahlungen sind erstattungsfähig."
+  }
+}

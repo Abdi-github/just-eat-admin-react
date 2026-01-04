@@ -1,0 +1,24 @@
+{
+  "title": "Settings",
+  "language": {
+    "title": "Language",
+    "description": "Choose the display language for the admin interface. API content will also be returned in the selected language.",
+    "select": "Interface Language"
+  },
+  "display": {
+    "title": "Display",
+    "description": "Customize the appearance of the admin dashboard.",
+    "collapseSidebar": "Collapse sidebar by default"
+  },
+  "about": {
+    "title": "About",
+    "appName": "Application",
+    "version": "Version",
+    "apiUrl": "API URL"
+  },
+  "danger": {
+    "title": "Danger Zone",
+    "description": "These actions are irreversible. Clearing local data will log you out.",
+    "clearData": "Clear Local Data & Logout"
+  }
+}

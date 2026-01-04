@@ -1,0 +1,87 @@
+{
+  "title": "Livraisons",
+  "subtitle": "Gestion des affectations de livraison",
+  "table": {
+    "id": "ID livraison",
+    "orderNumber": "Commande #",
+    "restaurant": "Restaurant",
+    "status": "Statut",
+    "courier": "Coursier",
+    "fee": "Frais",
+    "date": "Date",
+    "unassigned": "Non assigné"
+  },
+  "filters": {
+    "status": "Statut",
+    "allStatuses": "Tous les statuts",
+    "sort": "Tri",
+    "dateFrom": "Date début",
+    "dateTo": "Date fin"
+  },
+  "sort": {
+    "newestFirst": "Plus récentes",
+    "oldestFirst": "Plus anciennes"
+  },
+  "status": {
+    "PENDING": "En attente",
+    "ASSIGNED": "Assigné",
+    "PICKED_UP": "Récupéré",
+    "IN_TRANSIT": "En transit",
+    "DELIVERED": "Livré",
+    "CANCELLED": "Annulé",
+    "FAILED": "Échoué"
+  },
+  "actions": {
+    "assignCourier": "Assigner un coursier",
+    "cancel": "Annuler la livraison",
+    "cancelDelivery": "Annuler la livraison"
+  },
+  "detail": {
+    "title": "Détails de livraison",
+    "deliveryInfo": "Informations de livraison",
+    "deliveryId": "ID livraison",
+    "orderId": "ID commande",
+    "fee": "Frais de livraison",
+    "distance": "Distance",
+    "notes": "Notes",
+    "restaurantInfo": "Informations du restaurant",
+    "restaurant": "Restaurant",
+    "pickupAddress": "Adresse de retrait",
+    "addresses": "Adresses",
+    "deliveryAddress": "Adresse de livraison",
+    "floor": "Étage",
+    "instructions": "Instructions",
+    "courierInfo": "Informations du coursier",
+    "courierId": "ID coursier",
+    "courierLat": "Latitude",
+    "courierLng": "Longitude",
+    "locationUpdatedAt": "Position mise à jour le",
+    "noCourier": "Aucun coursier assigné",
+    "timestamps": "Horodatages",
+    "createdAt": "Créé le",
+    "assignedAt": "Assigné le",
+    "pickedUpAt": "Récupéré le",
+    "inTransitAt": "En transit depuis",
+    "deliveredAt": "Livré le",
+    "cancelledAt": "Annulé le",
+    "estimatedPickup": "Retrait estimé",
+    "estimatedDelivery": "Livraison estimée",
+    "cancellationInfo": "Informations d'annulation"
+  },
+  "assign": {
+    "title": "Assigner un coursier",
+    "courierId": "ID coursier",
+    "courierIdPlaceholder": "Entrer l'ID du coursier...",
+    "courierIdHelp": "Entrez l'ObjectId MongoDB du coursier à assigner.",
+    "submit": "Assigner",
+    "assigning": "Assignation en cours..."
+  },
+  "messages": {
+    "noDeliveries": "Aucune livraison trouvée",
+    "assignSuccess": "Coursier assigné avec succès",
+    "assignError": "Échec de l'assignation du coursier",
+    "cancelSuccess": "Livraison annulée avec succès",
+    "cancelError": "Échec de l'annulation de la livraison",
+    "confirmCancel": "Êtes-vous sûr de vouloir annuler cette livraison ?"
+  }
+}

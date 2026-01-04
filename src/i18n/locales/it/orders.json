@@ -1,0 +1,101 @@
+{
+  "title": "Ordini",
+  "subtitle": "Monitorare e gestire tutti gli ordini della piattaforma",
+  "fields": {
+    "orderNumber": "Numero ordine",
+    "restaurant": "Ristorante",
+    "customer": "Cliente",
+    "courier": "Corriere",
+    "status": "Stato",
+    "orderType": "Tipo di ordine",
+    "total": "Totale",
+    "subtotal": "Subtotale",
+    "deliveryFee": "Spese di consegna",
+    "serviceFee": "Spese di servizio",
+    "tip": "Mancia",
+    "discount": "Sconto",
+    "paymentMethod": "Metodo di pagamento",
+    "paymentStatus": "Stato del pagamento",
+    "placedAt": "Effettuato il",
+    "acceptedAt": "Accettato il",
+    "rejectedAt": "Rifiutato il",
+    "preparingAt": "In preparazione il",
+    "readyAt": "Pronto il",
+    "pickedUpAt": "Ritirato il",
+    "inTransitAt": "In transito il",
+    "deliveredAt": "Consegnato il",
+    "cancelledAt": "Annullato il",
+    "estimatedDelivery": "Consegna stimata",
+    "specialInstructions": "Istruzioni speciali",
+    "rejectionReason": "Motivo del rifiuto",
+    "cancellationReason": "Motivo dell'annullamento",
+    "orderId": "ID ordine",
+    "userId": "ID utente",
+    "restaurantId": "ID ristorante",
+    "courierId": "ID corriere",
+    "deliveryAddressId": "ID indirizzo di consegna"
+  },
+  "filters": {
+    "searchOrderNumber": "Cerca per numero ordine...",
+    "allStatuses": "Tutti gli stati",
+    "allTypes": "Tutti i tipi",
+    "allPaymentMethods": "Tutti i metodi di pagamento",
+    "allPaymentStatuses": "Tutti gli stati di pagamento",
+    "dateFrom": "Data inizio",
+    "dateTo": "Data fine"
+  },
+  "sort": {
+    "newestFirst": "Più recenti",
+    "oldestFirst": "Più vecchi",
+    "highestTotal": "Importo più alto",
+    "lowestTotal": "Importo più basso",
+    "recentlyPlaced": "Effettuati di recente",
+    "earliestPlaced": "Ordini più vecchi"
+  },
+  "orderType": {
+    "delivery": "Consegna",
+    "pickup": "Ritiro"
+  },
+  "paymentMethod": {
+    "card": "Carta",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Contanti"
+  },
+  "paymentStatus": {
+    "pending": "In attesa",
+    "processing": "In elaborazione",
+    "paid": "Pagato",
+    "failed": "Fallito",
+    "refunded": "Rimborsato"
+  },
+  "sections": {
+    "items": "Articoli dell'ordine",
+    "priceBreakdown": "Dettaglio prezzi",
+    "timeline": "Cronologia dell'ordine",
+    "references": "Riferimenti & ID"
+  },
+  "itemFields": {
+    "name": "Articolo",
+    "quantity": "Qtà",
+    "unitPrice": "Prezzo unitario",
+    "totalPrice": "Totale"
+  },
+  "timeline": {
+    "noEvents": "Nessun evento registrato"
+  },
+  "actions": {
+    "backToList": "Torna agli ordini",
+    "overrideStatus": "Modifica stato"
+  },
+  "modals": {
+    "rejectTitle": "Rifiuta ordine",
+    "rejectDescription": "Fornire un motivo per il rifiuto di questo ordine.",
+    "cancelTitle": "Annulla ordine",
+    "cancelDescription": "Fornire un motivo per l'annullamento di questo ordine.",
+    "reasonPlaceholder": "Inserire il motivo (min. 3 caratteri)..."
+  },
+  "messages": {
+    "statusUpdated": "Stato dell'ordine aggiornato con successo"
+  }
+}

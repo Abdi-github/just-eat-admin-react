@@ -1,0 +1,84 @@
+{
+  "title": "Pagamenti",
+  "subtitle": "Gestione delle transazioni di pagamento",
+  "table": {
+    "id": "ID transazione",
+    "amount": "Importo",
+    "method": "Metodo",
+    "provider": "Fornitore",
+    "status": "Stato",
+    "attempts": "Tentativi",
+    "date": "Data",
+    "orderId": "ID ordine"
+  },
+  "filters": {
+    "allStatuses": "Tutti gli stati",
+    "allMethods": "Tutti i metodi",
+    "paymentMethod": "Metodo di pagamento",
+    "orderId": "ID ordine",
+    "orderIdPlaceholder": "Filtra per ID ordine..."
+  },
+  "status": {
+    "PENDING": "In attesa",
+    "PROCESSING": "In elaborazione",
+    "COMPLETED": "Completato",
+    "FAILED": "Fallito",
+    "REFUNDED": "Rimborsato",
+    "PARTIAL_REFUND": "Rimborso parziale",
+    "CANCELLED": "Annullato",
+    "EXPIRED": "Scaduto"
+  },
+  "methods": {
+    "card": "Carta di credito",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Contanti"
+  },
+  "detail": {
+    "title": "Dettagli transazione",
+    "transactionInfo": "Informazioni sulla transazione",
+    "transactionId": "ID transazione",
+    "orderId": "ID ordine",
+    "userId": "ID utente",
+    "amount": "Importo",
+    "currency": "Valuta",
+    "attempts": "Tentativi",
+    "paymentMethod": "Metodo di pagamento",
+    "method": "Metodo",
+    "provider": "Fornitore",
+    "providerTxId": "ID transazione fornitore",
+    "cashConfirmed": "Contanti confermati",
+    "cashCollectedAt": "Contanti raccolti il",
+    "refundInfo": "Informazioni sul rimborso",
+    "refundAmount": "Importo del rimborso",
+    "refundReason": "Motivo del rimborso",
+    "refundedAt": "Rimborsato il",
+    "errorInfo": "Informazioni sull'errore",
+    "errorCode": "Codice errore",
+    "errorMessage": "Messaggio di errore",
+    "timestamps": "Timestamp",
+    "createdAt": "Creato il",
+    "updatedAt": "Aggiornato il",
+    "sessionExpiresAt": "Sessione scade il"
+  },
+  "refund": {
+    "title": "Elabora rimborso",
+    "transactionAmount": "Importo della transazione",
+    "type": "Tipo di rimborso",
+    "fullRefund": "Rimborso completo",
+    "partialRefund": "Rimborso parziale",
+    "amount": "Importo del rimborso",
+    "maxAmount": "Massimo: {{amount}}",
+    "reason": "Motivo",
+    "reasonPlaceholder": "Inserisci il motivo del rimborso (opzionale)...",
+    "submit": "Elabora rimborso",
+    "processing": "Elaborazione in corso..."
+  },
+  "messages": {
+    "noTransactions": "Nessuna transazione trovata",
+    "refundSuccess": "Rimborso elaborato con successo",
+    "refundError": "Elaborazione del rimborso fallita",
+    "notFound": "Transazione di pagamento non trovata",
+    "cannotRefund": "Questa transazione non può essere rimborsata. Solo i pagamenti completati sono idonei al rimborso."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Candidature",
+  "stats": {
+    "total": "Totale candidature",
+    "pending": "In attesa",
+    "approved": "Approvate",
+    "rejected": "Rifiutate"
+  },
+  "columns": {
+    "applicant": "Candidato",
+    "phone": "Telefono",
+    "type": "Tipo",
+    "details": "Dettagli",
+    "status": "Stato",
+    "appliedAt": "Data di candidatura"
+  },
+  "types": {
+    "restaurant_owner": "Proprietario del ristorante",
+    "courier": "Corriere"
+  },
+  "vehicles": {
+    "bicycle": "Bicicletta",
+    "motorcycle": "Motocicletta",
+    "car": "Auto",
+    "e_bike": "E-Bike",
+    "on_foot": "A piedi"
+  },
+  "filters": {
+    "allStatuses": "Tutti gli stati",
+    "allTypes": "Tutti i tipi"
+  },
+  "noApplications": "Nessuna candidatura trovata",
+  "messages": {
+    "approved": "Candidatura approvata con successo",
+    "rejected": "Candidatura rifiutata con successo"
+  },
+  "rejectModal": {
+    "title": "Rifiuta candidatura",
+    "description": "Sei sicuro di voler rifiutare la candidatura di {{name}}?",
+    "reason": "Motivo del rifiuto",
+    "reasonPlaceholder": "Inserisci il motivo del rifiuto..."
+  }
+}

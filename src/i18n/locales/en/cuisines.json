@@ -1,0 +1,41 @@
+{
+  "title": "Cuisines",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "status": "Status",
+    "image": "Image",
+    "imageUrl": "Image URL",
+    "active": "Active",
+    "restaurants": "Restaurants"
+  },
+  "filters": {
+    "searchPlaceholder": "Search cuisines..."
+  },
+  "sort": {
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "newestFirst": "Newest first",
+    "oldestFirst": "Oldest first"
+  },
+  "list": {
+    "results": "cuisines"
+  },
+  "form": {
+    "createTitle": "Create Cuisine",
+    "editTitle": "Edit Cuisine",
+    "nameSection": "Name (all languages)",
+    "namePlaceholder": "Name in {{lang}}",
+    "slugPlaceholder": "auto-generated-slug",
+    "slugHint": "Leave empty to auto-generate from name"
+  },
+  "actions": {
+    "create": "New Cuisine"
+  },
+  "messages": {
+    "created": "Cuisine created successfully",
+    "updated": "Cuisine updated successfully",
+    "deleted": "Cuisine deleted successfully",
+    "confirmDelete": "Are you sure you want to delete the cuisine \"{{name}}\"?"
+  }
+}

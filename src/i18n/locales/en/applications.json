@@ -1,0 +1,43 @@
+{
+  "title": "Applications",
+  "stats": {
+    "total": "Total Applications",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "columns": {
+    "applicant": "Applicant",
+    "phone": "Phone",
+    "type": "Type",
+    "details": "Details",
+    "status": "Status",
+    "appliedAt": "Applied At"
+  },
+  "types": {
+    "restaurant_owner": "Restaurant Owner",
+    "courier": "Courier"
+  },
+  "vehicles": {
+    "bicycle": "Bicycle",
+    "motorcycle": "Motorcycle",
+    "car": "Car",
+    "e_bike": "E-Bike",
+    "on_foot": "On Foot"
+  },
+  "filters": {
+    "allStatuses": "All Statuses",
+    "allTypes": "All Types"
+  },
+  "noApplications": "No applications found",
+  "messages": {
+    "approved": "Application approved successfully",
+    "rejected": "Application rejected successfully"
+  },
+  "rejectModal": {
+    "title": "Reject Application",
+    "description": "Are you sure you want to reject the application from {{name}}?",
+    "reason": "Rejection Reason",
+    "reasonPlaceholder": "Enter the reason for rejection..."
+  }
+}

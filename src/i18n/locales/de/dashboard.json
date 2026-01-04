@@ -1,0 +1,45 @@
+{
+  "title": "Dashboard",
+  "errorLoading": "Dashboard-Daten konnten nicht geladen werden",
+  "stats": {
+    "totalOrders": "Bestellungen gesamt",
+    "totalRevenue": "Gesamtumsatz",
+    "activeRestaurants": "Aktive Restaurants",
+    "totalUsers": "Benutzer gesamt",
+    "delivered": "geliefert",
+    "avgOrder": "Ø Bestellung",
+    "totalRestaurants": "gesamt",
+    "newUsers": "neu in diesem Zeitraum"
+  },
+  "recentOrders": {
+    "title": "Aktuelle Bestellungen",
+    "orderNumber": "Bestellung #",
+    "restaurant": "Restaurant",
+    "status": "Status",
+    "total": "Gesamt",
+    "payment": "Zahlung",
+    "time": "Zeit"
+  },
+  "pendingApprovals": {
+    "title": "Ausstehende Genehmigungen",
+    "restaurant": "Restaurant",
+    "location": "Standort",
+    "status": "Status",
+    "submitted": "Eingereicht",
+    "noPending": "Keine ausstehenden Genehmigungen"
+  },
+  "charts": {
+    "ordersOverTime": "Bestellungen im Zeitverlauf",
+    "revenueOverTime": "Umsatz im Zeitverlauf",
+    "orders": "Bestellungen",
+    "revenue": "Umsatz",
+    "errorLoading": "Diagrammdaten konnten nicht geladen werden",
+    "noData": "Keine Daten verfügbar"
+  },
+  "paymentMethods": {
+    "card": "Karte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Bargeld"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Moderazione recensioni",
+  "fields": {
+    "reviewer": "Recensore",
+    "restaurant": "Ristorante",
+    "rating": "Valutazione",
+    "comment": "Commento",
+    "status": "Stato",
+    "verified": "Verificato",
+    "unverified": "Non verificato",
+    "createdAt": "Creato il",
+    "moderationReason": "Motivo della moderazione",
+    "restaurantReply": "Risposta del ristorante",
+    "orderId": "ID ordine",
+    "name": "Nome"
+  },
+  "filters": {
+    "allStatuses": "Tutti gli stati",
+    "allRatings": "Tutte le valutazioni",
+    "minStars": "{{count}}+ Stelle"
+  },
+  "sort": {
+    "newestFirst": "Più recenti",
+    "oldestFirst": "Più vecchi",
+    "highestRating": "Valutazione più alta",
+    "lowestRating": "Valutazione più bassa"
+  },
+  "list": {
+    "results": "recensioni"
+  },
+  "detail": {
+    "title": "Dettagli recensione",
+    "loading": "Caricamento recensione...",
+    "reviewContent": "Contenuto della recensione",
+    "noComment": "Nessun commento fornito",
+    "reviewer": "Recensore",
+    "restaurant": "Ristorante",
+    "timestamps": "Timestamp"
+  },
+  "moderation": {
+    "rejectTitle": "Rifiuta recensione",
+    "reasonLabel": "Motivo del rifiuto",
+    "reasonPlaceholder": "Fornire un motivo per il rifiuto..."
+  },
+  "messages": {
+    "approved": "Recensione approvata con successo",
+    "rejected": "Recensione rifiutata con successo",
+    "flagged": "Recensione segnalata per ulteriore revisione",
+    "deleted": "Recensione eliminata con successo",
+    "confirmDelete": "Sei sicuro di voler eliminare questa recensione? Questa azione non può essere annullata."
+  }
+}

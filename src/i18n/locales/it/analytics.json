@@ -1,0 +1,69 @@
+{
+  "title": "Analitica",
+  "stats": {
+    "totalOrders": "Totale ordini",
+    "totalRevenue": "Fatturato totale",
+    "restaurants": "Ristoranti",
+    "users": "Utenti",
+    "delivered": "consegnati",
+    "active": "attivi",
+    "avgOrder": "Ordine medio",
+    "newInPeriod": "nuovi nel periodo"
+  },
+  "dateRange": {
+    "preset": "Periodo",
+    "custom": "Personalizzato",
+    "from": "Dal",
+    "to": "Al",
+    "apply": "Applica",
+    "period": "Periodo",
+    "presets": {
+      "today": "Oggi",
+      "yesterday": "Ieri",
+      "this_week": "Questa settimana",
+      "this_month": "Questo mese",
+      "last_7_days": "Ultimi 7 giorni",
+      "last_30_days": "Ultimi 30 giorni",
+      "last_90_days": "Ultimi 90 giorni",
+      "this_year": "Quest'anno"
+    },
+    "periods": {
+      "daily": "Giornaliero",
+      "weekly": "Settimanale",
+      "monthly": "Mensile"
+    }
+  },
+  "charts": {
+    "revenueOverTime": "Andamento del fatturato",
+    "revenue": "Fatturato",
+    "orders": "Ordini",
+    "orderStatusBreakdown": "Distribuzione stati ordini",
+    "orderTypeBreakdown": "Tipo di ordine",
+    "paymentMethodBreakdown": "Metodi di pagamento",
+    "restaurantStatusBreakdown": "Stato dei ristoranti",
+    "restaurantSummary": "Riepilogo ristoranti",
+    "topRestaurants": "Top ristoranti",
+    "count": "Conteggio",
+    "noData": "Nessun dato disponibile per il periodo selezionato",
+    "orderTypes": {
+      "delivery": "Consegna",
+      "pickup": "Ritiro"
+    },
+    "paymentMethods": {
+      "stripe_card": "Carta di credito",
+      "twint": "TWINT",
+      "postfinance": "PostFinance",
+      "cash": "Contanti"
+    }
+  },
+  "table": {
+    "rank": "#",
+    "restaurant": "Ristorante",
+    "orders": "Ordini",
+    "revenue": "Fatturato",
+    "avgOrder": "Ordine medio"
+  },
+  "errors": {
+    "loadFailed": "Impossibile caricare i dati analitici. Riprova più tardi."
+  }
+}

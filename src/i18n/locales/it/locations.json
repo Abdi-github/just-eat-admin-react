@@ -1,0 +1,78 @@
+{
+  "title": "Località",
+  "cantons": {
+    "title": "Cantoni",
+    "searchPlaceholder": "Cerca cantoni...",
+    "results": "cantoni",
+    "fields": {
+      "code": "Codice",
+      "name": "Nome",
+      "slug": "Slug",
+      "status": "Stato",
+      "active": "Attivo",
+      "cities": "Città"
+    },
+    "sort": {
+      "codeAZ": "Codice A–Z",
+      "codeZA": "Codice Z–A",
+      "newestFirst": "Più recenti",
+      "oldestFirst": "Più vecchi"
+    },
+    "form": {
+      "createTitle": "Crea cantone",
+      "editTitle": "Modifica cantone",
+      "nameSection": "Nome (tutte le lingue)",
+      "namePlaceholder": "Nome in {{lang}}",
+      "slugPlaceholder": "generato-automaticamente",
+      "slugHint": "Lasciare vuoto per generare automaticamente",
+      "codeHint": "Codice cantone a 2 lettere (es. ZH, BE)"
+    },
+    "actions": {
+      "create": "Nuovo cantone"
+    },
+    "messages": {
+      "created": "Cantone creato con successo",
+      "updated": "Cantone aggiornato con successo",
+      "deleted": "Cantone eliminato con successo",
+      "confirmDelete": "Sei sicuro di voler eliminare il cantone \"{{name}}\"?"
+    }
+  },
+  "cities": {
+    "title": "Città",
+    "searchPlaceholder": "Cerca città...",
+    "results": "città",
+    "allCantons": "Tutti i cantoni",
+    "fields": {
+      "name": "Nome",
+      "canton": "Cantone",
+      "slug": "Slug",
+      "postalCodes": "Codici postali",
+      "status": "Stato",
+      "active": "Attivo"
+    },
+    "sort": {
+      "nameAZ": "Nome A–Z",
+      "nameZA": "Nome Z–A",
+      "newestFirst": "Più recenti"
+    },
+    "form": {
+      "createTitle": "Crea città",
+      "editTitle": "Modifica città",
+      "nameSection": "Nome (tutte le lingue)",
+      "namePlaceholder": "Nome in {{lang}}",
+      "slugPlaceholder": "generato-automaticamente",
+      "slugHint": "Lasciare vuoto per generare automaticamente",
+      "selectCanton": "Seleziona un cantone",
+      "addPostalCode": "Aggiungi codice postale"
+    },
+    "actions": {
+      "create": "Nuova città"
+    },
+    "messages": {
+      "created": "Città creata con successo",
+      "updated": "Città aggiornata con successo",
+      "deleted": "Città eliminata con successo",
+      "confirmDelete": "Sei sicuro di voler eliminare la città \"{{name}}\"?"
+    }
+  }
+}

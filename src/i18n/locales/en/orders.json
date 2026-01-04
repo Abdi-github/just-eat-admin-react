@@ -1,0 +1,101 @@
+{
+  "title": "Orders",
+  "subtitle": "Monitor and manage all platform orders",
+  "fields": {
+    "orderNumber": "Order Number",
+    "restaurant": "Restaurant",
+    "customer": "Customer",
+    "courier": "Courier",
+    "status": "Status",
+    "orderType": "Order Type",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "deliveryFee": "Delivery Fee",
+    "serviceFee": "Service Fee",
+    "tip": "Tip",
+    "discount": "Discount",
+    "paymentMethod": "Payment Method",
+    "paymentStatus": "Payment Status",
+    "placedAt": "Placed At",
+    "acceptedAt": "Accepted At",
+    "rejectedAt": "Rejected At",
+    "preparingAt": "Preparing At",
+    "readyAt": "Ready At",
+    "pickedUpAt": "Picked Up At",
+    "inTransitAt": "In Transit At",
+    "deliveredAt": "Delivered At",
+    "cancelledAt": "Cancelled At",
+    "estimatedDelivery": "Estimated Delivery",
+    "specialInstructions": "Special Instructions",
+    "rejectionReason": "Rejection Reason",
+    "cancellationReason": "Cancellation Reason",
+    "orderId": "Order ID",
+    "userId": "User ID",
+    "restaurantId": "Restaurant ID",
+    "courierId": "Courier ID",
+    "deliveryAddressId": "Delivery Address ID"
+  },
+  "filters": {
+    "searchOrderNumber": "Search by order number...",
+    "allStatuses": "All Statuses",
+    "allTypes": "All Types",
+    "allPaymentMethods": "All Payment Methods",
+    "allPaymentStatuses": "All Payment Statuses",
+    "dateFrom": "From date",
+    "dateTo": "To date"
+  },
+  "sort": {
+    "newestFirst": "Newest First",
+    "oldestFirst": "Oldest First",
+    "highestTotal": "Highest Total",
+    "lowestTotal": "Lowest Total",
+    "recentlyPlaced": "Recently Placed",
+    "earliestPlaced": "Earliest Placed"
+  },
+  "orderType": {
+    "delivery": "Delivery",
+    "pickup": "Pickup"
+  },
+  "paymentMethod": {
+    "card": "Card",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Cash"
+  },
+  "paymentStatus": {
+    "pending": "Pending",
+    "processing": "Processing",
+    "paid": "Paid",
+    "failed": "Failed",
+    "refunded": "Refunded"
+  },
+  "sections": {
+    "items": "Order Items",
+    "priceBreakdown": "Price Breakdown",
+    "timeline": "Order Timeline",
+    "references": "References & IDs"
+  },
+  "itemFields": {
+    "name": "Item",
+    "quantity": "Qty",
+    "unitPrice": "Unit Price",
+    "totalPrice": "Total"
+  },
+  "timeline": {
+    "noEvents": "No timeline events recorded"
+  },
+  "actions": {
+    "backToList": "Back to Orders",
+    "overrideStatus": "Override Status"
+  },
+  "modals": {
+    "rejectTitle": "Reject Order",
+    "rejectDescription": "Please provide a reason for rejecting this order.",
+    "cancelTitle": "Cancel Order",
+    "cancelDescription": "Please provide a reason for cancelling this order.",
+    "reasonPlaceholder": "Enter reason (min 3 characters)..."
+  },
+  "messages": {
+    "statusUpdated": "Order status updated successfully"
+  }
+}

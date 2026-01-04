@@ -1,0 +1,101 @@
+{
+  "title": "Commandes",
+  "subtitle": "Surveiller et gérer toutes les commandes de la plateforme",
+  "fields": {
+    "orderNumber": "Numéro de commande",
+    "restaurant": "Restaurant",
+    "customer": "Client",
+    "courier": "Coursier",
+    "status": "Statut",
+    "orderType": "Type de commande",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "deliveryFee": "Frais de livraison",
+    "serviceFee": "Frais de service",
+    "tip": "Pourboire",
+    "discount": "Remise",
+    "paymentMethod": "Mode de paiement",
+    "paymentStatus": "Statut du paiement",
+    "placedAt": "Passée le",
+    "acceptedAt": "Acceptée le",
+    "rejectedAt": "Refusée le",
+    "preparingAt": "En préparation le",
+    "readyAt": "Prête le",
+    "pickedUpAt": "Récupérée le",
+    "inTransitAt": "En livraison le",
+    "deliveredAt": "Livrée le",
+    "cancelledAt": "Annulée le",
+    "estimatedDelivery": "Livraison estimée",
+    "specialInstructions": "Instructions spéciales",
+    "rejectionReason": "Raison du refus",
+    "cancellationReason": "Raison de l'annulation",
+    "orderId": "ID de commande",
+    "userId": "ID utilisateur",
+    "restaurantId": "ID restaurant",
+    "courierId": "ID coursier",
+    "deliveryAddressId": "ID adresse de livraison"
+  },
+  "filters": {
+    "searchOrderNumber": "Rechercher par numéro de commande...",
+    "allStatuses": "Tous les statuts",
+    "allTypes": "Tous les types",
+    "allPaymentMethods": "Tous les modes de paiement",
+    "allPaymentStatuses": "Tous les statuts de paiement",
+    "dateFrom": "Date de début",
+    "dateTo": "Date de fin"
+  },
+  "sort": {
+    "newestFirst": "Plus récentes",
+    "oldestFirst": "Plus anciennes",
+    "highestTotal": "Montant le plus élevé",
+    "lowestTotal": "Montant le plus bas",
+    "recentlyPlaced": "Récemment passées",
+    "earliestPlaced": "Plus anciennes commandes"
+  },
+  "orderType": {
+    "delivery": "Livraison",
+    "pickup": "À emporter"
+  },
+  "paymentMethod": {
+    "card": "Carte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Espèces"
+  },
+  "paymentStatus": {
+    "pending": "En attente",
+    "processing": "En cours",
+    "paid": "Payé",
+    "failed": "Échoué",
+    "refunded": "Remboursé"
+  },
+  "sections": {
+    "items": "Articles commandés",
+    "priceBreakdown": "Détail des prix",
+    "timeline": "Chronologie de la commande",
+    "references": "Références & IDs"
+  },
+  "itemFields": {
+    "name": "Article",
+    "quantity": "Qté",
+    "unitPrice": "Prix unitaire",
+    "totalPrice": "Total"
+  },
+  "timeline": {
+    "noEvents": "Aucun événement enregistré"
+  },
+  "actions": {
+    "backToList": "Retour aux commandes",
+    "overrideStatus": "Modifier le statut"
+  },
+  "modals": {
+    "rejectTitle": "Refuser la commande",
+    "rejectDescription": "Veuillez fournir une raison pour le refus de cette commande.",
+    "cancelTitle": "Annuler la commande",
+    "cancelDescription": "Veuillez fournir une raison pour l'annulation de cette commande.",
+    "reasonPlaceholder": "Entrez la raison (min. 3 caractères)..."
+  },
+  "messages": {
+    "statusUpdated": "Statut de la commande mis à jour avec succès"
+  }
+}

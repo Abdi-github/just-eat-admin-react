@@ -1,0 +1,45 @@
+{
+  "title": "Tableau de bord",
+  "errorLoading": "Impossible de charger les données du tableau de bord",
+  "stats": {
+    "totalOrders": "Commandes totales",
+    "totalRevenue": "Chiffre d'affaires total",
+    "activeRestaurants": "Restaurants actifs",
+    "totalUsers": "Utilisateurs totaux",
+    "delivered": "livrées",
+    "avgOrder": "commande moy.",
+    "totalRestaurants": "total",
+    "newUsers": "nouveaux cette période"
+  },
+  "recentOrders": {
+    "title": "Commandes récentes",
+    "orderNumber": "Commande #",
+    "restaurant": "Restaurant",
+    "status": "Statut",
+    "total": "Total",
+    "payment": "Paiement",
+    "time": "Heure"
+  },
+  "pendingApprovals": {
+    "title": "Approbations en attente",
+    "restaurant": "Restaurant",
+    "location": "Emplacement",
+    "status": "Statut",
+    "submitted": "Soumis",
+    "noPending": "Aucune approbation en attente"
+  },
+  "charts": {
+    "ordersOverTime": "Commandes dans le temps",
+    "revenueOverTime": "Revenus dans le temps",
+    "orders": "Commandes",
+    "revenue": "Revenus",
+    "errorLoading": "Impossible de charger les données du graphique",
+    "noData": "Aucune donnée disponible"
+  },
+  "paymentMethods": {
+    "card": "Carte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Espèces"
+  }
+}

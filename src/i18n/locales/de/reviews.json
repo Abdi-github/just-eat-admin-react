@@ -1,0 +1,52 @@
+{
+  "title": "Bewertungsmoderation",
+  "fields": {
+    "reviewer": "Bewerter",
+    "restaurant": "Restaurant",
+    "rating": "Bewertung",
+    "comment": "Kommentar",
+    "status": "Status",
+    "verified": "Verifiziert",
+    "unverified": "Nicht verifiziert",
+    "createdAt": "Erstellt",
+    "moderationReason": "Moderationsgrund",
+    "restaurantReply": "Antwort des Restaurants",
+    "orderId": "Bestell-ID",
+    "name": "Name"
+  },
+  "filters": {
+    "allStatuses": "Alle Status",
+    "allRatings": "Alle Bewertungen",
+    "minStars": "{{count}}+ Sterne"
+  },
+  "sort": {
+    "newestFirst": "Neueste zuerst",
+    "oldestFirst": "Älteste zuerst",
+    "highestRating": "Höchste Bewertung",
+    "lowestRating": "Niedrigste Bewertung"
+  },
+  "list": {
+    "results": "Bewertungen"
+  },
+  "detail": {
+    "title": "Bewertungsdetails",
+    "loading": "Bewertung wird geladen...",
+    "reviewContent": "Bewertungsinhalt",
+    "noComment": "Kein Kommentar vorhanden",
+    "reviewer": "Bewerter",
+    "restaurant": "Restaurant",
+    "timestamps": "Zeitstempel"
+  },
+  "moderation": {
+    "rejectTitle": "Bewertung ablehnen",
+    "reasonLabel": "Ablehnungsgrund",
+    "reasonPlaceholder": "Bitte geben Sie einen Ablehnungsgrund an..."
+  },
+  "messages": {
+    "approved": "Bewertung erfolgreich genehmigt",
+    "rejected": "Bewertung erfolgreich abgelehnt",
+    "flagged": "Bewertung zur Überprüfung markiert",
+    "deleted": "Bewertung erfolgreich gelöscht",
+    "confirmDelete": "Möchten Sie diese Bewertung wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+  }
+}

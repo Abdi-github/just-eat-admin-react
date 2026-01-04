@@ -1,0 +1,81 @@
+{
+  "title": "Restaurants",
+  "list": {
+    "results": "results"
+  },
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "description": "Description",
+    "location": "Location",
+    "status": "Status",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "active": "Active",
+    "address": "Address",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "canton": "Canton",
+    "phone": "Phone",
+    "email": "Email",
+    "deliveryFee": "Delivery Fee",
+    "minimumOrder": "Minimum Order",
+    "delivery": "Delivery",
+    "pickup": "Pickup",
+    "partnerDelivery": "Partner Delivery",
+    "minutes": "min",
+    "rejectionReason": "Rejection Reason",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "publishedAt": "Published At",
+    "submittedAt": "Submitted",
+    "coverImage": "Cover Image"
+  },
+  "filters": {
+    "searchPlaceholder": "Search restaurants...",
+    "allStatuses": "All Statuses",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "highestRating": "Highest Rating"
+  },
+  "sections": {
+    "deliveryOptions": "Delivery Options",
+    "cuisines": "Cuisines",
+    "contactLocation": "Contact & Location",
+    "brand": "Brand",
+    "timestamps": "Timestamps"
+  },
+  "badges": {
+    "featured": "Featured"
+  },
+  "detail": {
+    "title": "Restaurant Details",
+    "loading": "Loading..."
+  },
+  "actions": {
+    "submitForApproval": "Submit for Approval",
+    "backToDraft": "Back to Draft"
+  },
+  "modals": {
+    "rejectTitle": "Reject Restaurant",
+    "rejectDescription": "Please provide a reason for rejecting this restaurant. The owner will be notified.",
+    "deleteTitle": "Delete Restaurant",
+    "deleteDescription": "Are you sure you want to permanently delete \"{{name}}\"? This action cannot be undone."
+  },
+  "placeholders": {
+    "rejectionReason": "Enter the reason for rejection..."
+  },
+  "pendingApprovals": {
+    "title": "Pending Approvals",
+    "viewAll": "View All Restaurants",
+    "noPending": "No Pending Approvals",
+    "allCaughtUp": "All restaurants have been reviewed!"
+  },
+  "messages": {
+    "statusChanged": "Restaurant status updated successfully",
+    "deleted": "Restaurant deleted successfully",
+    "updated": "Restaurant updated successfully"
+  }
+}

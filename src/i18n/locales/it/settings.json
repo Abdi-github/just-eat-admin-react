@@ -1,0 +1,24 @@
+{
+  "title": "Impostazioni",
+  "language": {
+    "title": "Lingua",
+    "description": "Scegli la lingua di visualizzazione dell'interfaccia di amministrazione. I contenuti dell'API verranno restituiti nella lingua selezionata.",
+    "select": "Lingua dell'interfaccia"
+  },
+  "display": {
+    "title": "Visualizzazione",
+    "description": "Personalizza l'aspetto del pannello di amministrazione.",
+    "collapseSidebar": "Comprimi la barra laterale per impostazione predefinita"
+  },
+  "about": {
+    "title": "Informazioni",
+    "appName": "Applicazione",
+    "version": "Versione",
+    "apiUrl": "URL API"
+  },
+  "danger": {
+    "title": "Zona pericolosa",
+    "description": "Queste azioni sono irreversibili. La cancellazione dei dati locali ti disconnetterà.",
+    "clearData": "Cancella dati locali & Disconnetti"
+  }
+}

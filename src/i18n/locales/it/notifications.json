@@ -1,0 +1,59 @@
+{
+  "title": "Notifiche",
+  "form": {
+    "title": "Invia notifica",
+    "userIds": "ID utenti",
+    "userIdsPlaceholder": "Inserisci gli ID utenti (uno per riga o separati da virgole)",
+    "userIdsHelp": "Separa gli ID con virgole o nuove righe",
+    "type": "Tipo di notifica",
+    "channel": "Canale",
+    "priority": "Priorità",
+    "notifTitle": "Titolo",
+    "titlePlaceholder": "Titolo della notifica (max 200 caratteri)",
+    "body": "Messaggio",
+    "bodyPlaceholder": "Contenuto della notifica (max 2000 caratteri)",
+    "send": "Invia notifica",
+    "sending": "Invio in corso..."
+  },
+  "types": {
+    "ORDER_PLACED": "Ordine effettuato",
+    "ORDER_ACCEPTED": "Ordine accettato",
+    "ORDER_REJECTED": "Ordine rifiutato",
+    "ORDER_PREPARING": "Ordine in preparazione",
+    "ORDER_READY": "Ordine pronto",
+    "ORDER_PICKED_UP": "Ordine ritirato",
+    "ORDER_IN_TRANSIT": "Ordine in transito",
+    "ORDER_DELIVERED": "Ordine consegnato",
+    "ORDER_CANCELLED": "Ordine annullato",
+    "PAYMENT_RECEIVED": "Pagamento ricevuto",
+    "PAYMENT_REFUNDED": "Pagamento rimborsato",
+    "RESTAURANT_APPROVED": "Ristorante approvato",
+    "RESTAURANT_REJECTED": "Ristorante rifiutato",
+    "RESTAURANT_PUBLISHED": "Ristorante pubblicato",
+    "RESTAURANT_SUSPENDED": "Ristorante sospeso",
+    "REVIEW_APPROVED": "Recensione approvata",
+    "REVIEW_REJECTED": "Recensione rifiutata",
+    "PROMOTION_AVAILABLE": "Promozione disponibile",
+    "ACCOUNT_UPDATE": "Aggiornamento account",
+    "SYSTEM": "Sistema"
+  },
+  "channels": {
+    "IN_APP": "In-App",
+    "EMAIL": "E-mail",
+    "BOTH": "Entrambi (In-App + E-mail)"
+  },
+  "priorities": {
+    "LOW": "Bassa",
+    "NORMAL": "Normale",
+    "HIGH": "Alta",
+    "URGENT": "Urgente"
+  },
+  "messages": {
+    "sendSuccess": "Notifica inviata a {{count}} utente/i",
+    "lastSent": "Ultima notifica inviata a {{count}} utente/i"
+  },
+  "errors": {
+    "noUsers": "Inserisci almeno un ID utente",
+    "sendFailed": "Invio della notifica fallito. Riprova."
+  }
+}

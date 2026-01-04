@@ -1,0 +1,79 @@
+{
+  "title": "Gestione utenti",
+  "fields": {
+    "name": "Nome",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "E-mail",
+    "phone": "Telefono",
+    "roles": "Ruoli",
+    "status": "Stato",
+    "verification": "Verifica",
+    "verified": "Verificato",
+    "unverified": "Non verificato",
+    "active": "Attivo",
+    "lastLogin": "Ultimo accesso",
+    "createdAt": "Creato il",
+    "language": "Lingua",
+    "password": "Password"
+  },
+  "filters": {
+    "searchPlaceholder": "Cerca per nome o e-mail...",
+    "allStatuses": "Tutti gli stati"
+  },
+  "sort": {
+    "newestFirst": "Più recenti",
+    "oldestFirst": "Più vecchi",
+    "nameAZ": "Nome A–Z",
+    "nameZA": "Nome Z–A",
+    "lastLogin": "Ultimo accesso"
+  },
+  "list": {
+    "results": "utenti"
+  },
+  "stats": {
+    "total": "Totale",
+    "active": "Attivi",
+    "verified": "Verificati",
+    "newLast30Days": "Nuovi (30 giorni)"
+  },
+  "detail": {
+    "title": "Dettagli utente",
+    "loading": "Caricamento utente...",
+    "userInfo": "Informazioni utente",
+    "roles": "Ruoli",
+    "permissions": "Permessi",
+    "manageRoles": "Gestisci ruoli",
+    "noRoles": "Nessun ruolo assegnato",
+    "noPermissions": "Nessun permesso"
+  },
+  "form": {
+    "createTitle": "Crea nuovo utente",
+    "editTitle": "Modifica utente",
+    "firstNamePlaceholder": "Inserisci il nome",
+    "lastNamePlaceholder": "Inserisci il cognome",
+    "emailPlaceholder": "Inserisci l'indirizzo e-mail",
+    "passwordPlaceholder": "Inserisci la password",
+    "phonePlaceholder": "+41 XX XXX XX XX",
+    "selectRole": "Seleziona un ruolo..."
+  },
+  "actions": {
+    "createUser": "Crea utente",
+    "activate": "Attiva",
+    "suspend": "Sospendi",
+    "removeRole": "Rimuovi ruolo"
+  },
+  "messages": {
+    "created": "Utente creato con successo",
+    "updated": "Utente aggiornato con successo",
+    "deleted": "Utente eliminato con successo",
+    "activated": "Utente attivato con successo",
+    "suspended": "Utente sospeso con successo",
+    "roleAssigned": "Ruolo assegnato con successo",
+    "roleRemoved": "Ruolo rimosso con successo",
+    "allRolesAssigned": "Tutti i ruoli disponibili sono assegnati",
+    "confirmDelete": "Sei sicuro di voler eliminare {{name}}? Questa azione non può essere annullata.",
+    "confirmActivate": "Attivare l'utente {{name}}?",
+    "confirmSuspend": "Sospendere l'utente {{name}}? L'accesso alla piattaforma sarà revocato."
+  }
+}

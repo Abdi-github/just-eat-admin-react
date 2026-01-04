@@ -1,0 +1,69 @@
+{
+  "title": "Analytik",
+  "stats": {
+    "totalOrders": "Gesamtbestellungen",
+    "totalRevenue": "Gesamtumsatz",
+    "restaurants": "Restaurants",
+    "users": "Benutzer",
+    "delivered": "geliefert",
+    "active": "aktiv",
+    "avgOrder": "Ø Bestellung",
+    "newInPeriod": "neu im Zeitraum"
+  },
+  "dateRange": {
+    "preset": "Zeitraum",
+    "custom": "Benutzerdefiniert",
+    "from": "Von",
+    "to": "Bis",
+    "apply": "Anwenden",
+    "period": "Periode",
+    "presets": {
+      "today": "Heute",
+      "yesterday": "Gestern",
+      "this_week": "Diese Woche",
+      "this_month": "Dieser Monat",
+      "last_7_days": "Letzte 7 Tage",
+      "last_30_days": "Letzte 30 Tage",
+      "last_90_days": "Letzte 90 Tage",
+      "this_year": "Dieses Jahr"
+    },
+    "periods": {
+      "daily": "Täglich",
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich"
+    }
+  },
+  "charts": {
+    "revenueOverTime": "Umsatz im Zeitverlauf",
+    "revenue": "Umsatz",
+    "orders": "Bestellungen",
+    "orderStatusBreakdown": "Bestellstatus-Verteilung",
+    "orderTypeBreakdown": "Bestellart",
+    "paymentMethodBreakdown": "Zahlungsmethoden",
+    "restaurantStatusBreakdown": "Restaurantstatus",
+    "restaurantSummary": "Restaurant-Übersicht",
+    "topRestaurants": "Top-Restaurants",
+    "count": "Anzahl",
+    "noData": "Keine Daten für den gewählten Zeitraum verfügbar",
+    "orderTypes": {
+      "delivery": "Lieferung",
+      "pickup": "Abholung"
+    },
+    "paymentMethods": {
+      "stripe_card": "Kreditkarte",
+      "twint": "TWINT",
+      "postfinance": "PostFinance",
+      "cash": "Bargeld"
+    }
+  },
+  "table": {
+    "rank": "#",
+    "restaurant": "Restaurant",
+    "orders": "Bestellungen",
+    "revenue": "Umsatz",
+    "avgOrder": "Ø Bestellung"
+  },
+  "errors": {
+    "loadFailed": "Analysedaten konnten nicht geladen werden. Bitte versuchen Sie es später erneut."
+  }
+}

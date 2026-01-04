@@ -1,0 +1,81 @@
+{
+  "title": "Restaurants",
+  "list": {
+    "results": "résultats"
+  },
+  "fields": {
+    "name": "Nom",
+    "slug": "Slug",
+    "description": "Description",
+    "location": "Emplacement",
+    "status": "Statut",
+    "rating": "Note",
+    "reviews": "Avis",
+    "active": "Actif",
+    "address": "Adresse",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "canton": "Canton",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "deliveryFee": "Frais de livraison",
+    "minimumOrder": "Commande minimum",
+    "delivery": "Livraison",
+    "pickup": "À emporter",
+    "partnerDelivery": "Livraison partenaire",
+    "minutes": "min",
+    "rejectionReason": "Motif de refus",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "publishedAt": "Publié le",
+    "submittedAt": "Soumis",
+    "coverImage": "Image de couverture"
+  },
+  "filters": {
+    "searchPlaceholder": "Rechercher des restaurants...",
+    "allStatuses": "Tous les statuts",
+    "newest": "Plus récents",
+    "oldest": "Plus anciens",
+    "nameAZ": "Nom A–Z",
+    "nameZA": "Nom Z–A",
+    "highestRating": "Meilleure note"
+  },
+  "sections": {
+    "deliveryOptions": "Options de livraison",
+    "cuisines": "Cuisines",
+    "contactLocation": "Contact & Emplacement",
+    "brand": "Marque",
+    "timestamps": "Horodatages"
+  },
+  "badges": {
+    "featured": "En vedette"
+  },
+  "detail": {
+    "title": "Détails du restaurant",
+    "loading": "Chargement..."
+  },
+  "actions": {
+    "submitForApproval": "Soumettre pour approbation",
+    "backToDraft": "Retour au brouillon"
+  },
+  "modals": {
+    "rejectTitle": "Refuser le restaurant",
+    "rejectDescription": "Veuillez fournir un motif de refus pour ce restaurant. Le propriétaire sera notifié.",
+    "deleteTitle": "Supprimer le restaurant",
+    "deleteDescription": "Êtes-vous sûr de vouloir supprimer définitivement \"{{name}}\" ? Cette action est irréversible."
+  },
+  "placeholders": {
+    "rejectionReason": "Entrez le motif du refus..."
+  },
+  "pendingApprovals": {
+    "title": "Approbations en attente",
+    "viewAll": "Voir tous les restaurants",
+    "noPending": "Aucune approbation en attente",
+    "allCaughtUp": "Tous les restaurants ont été examinés !"
+  },
+  "messages": {
+    "statusChanged": "Statut du restaurant mis à jour avec succès",
+    "deleted": "Restaurant supprimé avec succès",
+    "updated": "Restaurant mis à jour avec succès"
+  }
+}

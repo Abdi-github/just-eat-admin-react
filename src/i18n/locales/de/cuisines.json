@@ -1,0 +1,41 @@
+{
+  "title": "Küchen",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "status": "Status",
+    "image": "Bild",
+    "imageUrl": "Bild-URL",
+    "active": "Aktiv",
+    "restaurants": "Restaurants"
+  },
+  "filters": {
+    "searchPlaceholder": "Küchen suchen..."
+  },
+  "sort": {
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "newestFirst": "Neueste zuerst",
+    "oldestFirst": "Älteste zuerst"
+  },
+  "list": {
+    "results": "Küchen"
+  },
+  "form": {
+    "createTitle": "Küche erstellen",
+    "editTitle": "Küche bearbeiten",
+    "nameSection": "Name (alle Sprachen)",
+    "namePlaceholder": "Name auf {{lang}}",
+    "slugPlaceholder": "automatisch-generiert",
+    "slugHint": "Leer lassen für automatische Generierung"
+  },
+  "actions": {
+    "create": "Neue Küche"
+  },
+  "messages": {
+    "created": "Küche erfolgreich erstellt",
+    "updated": "Küche erfolgreich aktualisiert",
+    "deleted": "Küche erfolgreich gelöscht",
+    "confirmDelete": "Möchten Sie die Küche \"{{name}}\" wirklich löschen?"
+  }
+}

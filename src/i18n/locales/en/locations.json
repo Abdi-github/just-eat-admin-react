@@ -1,0 +1,78 @@
+{
+  "title": "Locations",
+  "cantons": {
+    "title": "Cantons",
+    "searchPlaceholder": "Search cantons...",
+    "results": "cantons",
+    "fields": {
+      "code": "Code",
+      "name": "Name",
+      "slug": "Slug",
+      "status": "Status",
+      "active": "Active",
+      "cities": "Cities"
+    },
+    "sort": {
+      "codeAZ": "Code A–Z",
+      "codeZA": "Code Z–A",
+      "newestFirst": "Newest first",
+      "oldestFirst": "Oldest first"
+    },
+    "form": {
+      "createTitle": "Create Canton",
+      "editTitle": "Edit Canton",
+      "nameSection": "Name (all languages)",
+      "namePlaceholder": "Name in {{lang}}",
+      "slugPlaceholder": "auto-generated-slug",
+      "slugHint": "Leave empty to auto-generate",
+      "codeHint": "2-letter canton code (e.g. ZH, BE)"
+    },
+    "actions": {
+      "create": "New Canton"
+    },
+    "messages": {
+      "created": "Canton created successfully",
+      "updated": "Canton updated successfully",
+      "deleted": "Canton deleted successfully",
+      "confirmDelete": "Are you sure you want to delete the canton \"{{name}}\"?"
+    }
+  },
+  "cities": {
+    "title": "Cities",
+    "searchPlaceholder": "Search cities...",
+    "results": "cities",
+    "allCantons": "All cantons",
+    "fields": {
+      "name": "Name",
+      "canton": "Canton",
+      "slug": "Slug",
+      "postalCodes": "Postal Codes",
+      "status": "Status",
+      "active": "Active"
+    },
+    "sort": {
+      "nameAZ": "Name A–Z",
+      "nameZA": "Name Z–A",
+      "newestFirst": "Newest first"
+    },
+    "form": {
+      "createTitle": "Create City",
+      "editTitle": "Edit City",
+      "nameSection": "Name (all languages)",
+      "namePlaceholder": "Name in {{lang}}",
+      "slugPlaceholder": "auto-generated-slug",
+      "slugHint": "Leave empty to auto-generate",
+      "selectCanton": "Select a canton",
+      "addPostalCode": "Add postal code"
+    },
+    "actions": {
+      "create": "New City"
+    },
+    "messages": {
+      "created": "City created successfully",
+      "updated": "City updated successfully",
+      "deleted": "City deleted successfully",
+      "confirmDelete": "Are you sure you want to delete the city \"{{name}}\"?"
+    }
+  }
+}

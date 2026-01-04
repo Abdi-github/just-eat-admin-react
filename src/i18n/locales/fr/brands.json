@@ -1,0 +1,53 @@
+{
+  "title": "Marques",
+  "fields": {
+    "name": "Nom",
+    "slug": "Slug",
+    "status": "Statut",
+    "active": "Actif",
+    "logo": "Logo",
+    "restaurants": "Restaurants"
+  },
+  "filters": {
+    "searchPlaceholder": "Rechercher des marques..."
+  },
+  "sort": {
+    "nameAZ": "Nom A–Z",
+    "nameZA": "Nom Z–A",
+    "newestFirst": "Plus récent d'abord",
+    "oldestFirst": "Plus ancien d'abord"
+  },
+  "list": {
+    "results": "marques"
+  },
+  "form": {
+    "createTitle": "Créer une marque",
+    "editTitle": "Modifier la marque",
+    "namePlaceholder": "Nom de la marque",
+    "slugPlaceholder": "généré-automatiquement",
+    "slugHint": "Laisser vide pour générer automatiquement"
+  },
+  "actions": {
+    "create": "Nouvelle marque"
+  },
+  "logo": {
+    "title": "Logo",
+    "upload": "Télécharger le logo",
+    "change": "Changer le logo",
+    "remove": "Supprimer",
+    "removeTitle": "Supprimer le logo",
+    "removeConfirm": "Êtes-vous sûr de vouloir supprimer le logo ?",
+    "uploading": "Téléchargement...",
+    "uploadSuccess": "Logo téléchargé avec succès",
+    "deleteSuccess": "Logo supprimé avec succès",
+    "invalidType": "Seuls les fichiers JPEG, PNG, WebP et SVG sont autorisés",
+    "tooLarge": "Le fichier doit être inférieur à 5 Mo",
+    "hint": "JPEG, PNG, WebP ou SVG, max 5 Mo"
+  },
+  "messages": {
+    "created": "Marque créée avec succès",
+    "updated": "Marque mise à jour avec succès",
+    "deleted": "Marque supprimée avec succès",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer la marque \"{{name}}\" ?"
+  }
+}

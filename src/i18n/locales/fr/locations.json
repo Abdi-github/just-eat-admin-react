@@ -1,0 +1,78 @@
+{
+  "title": "Emplacements",
+  "cantons": {
+    "title": "Cantons",
+    "searchPlaceholder": "Rechercher des cantons...",
+    "results": "cantons",
+    "fields": {
+      "code": "Code",
+      "name": "Nom",
+      "slug": "Slug",
+      "status": "Statut",
+      "active": "Actif",
+      "cities": "Villes"
+    },
+    "sort": {
+      "codeAZ": "Code A–Z",
+      "codeZA": "Code Z–A",
+      "newestFirst": "Plus récent d'abord",
+      "oldestFirst": "Plus ancien d'abord"
+    },
+    "form": {
+      "createTitle": "Créer un canton",
+      "editTitle": "Modifier le canton",
+      "nameSection": "Nom (toutes les langues)",
+      "namePlaceholder": "Nom en {{lang}}",
+      "slugPlaceholder": "généré-automatiquement",
+      "slugHint": "Laisser vide pour générer automatiquement",
+      "codeHint": "Code canton à 2 lettres (ex. ZH, BE)"
+    },
+    "actions": {
+      "create": "Nouveau canton"
+    },
+    "messages": {
+      "created": "Canton créé avec succès",
+      "updated": "Canton mis à jour avec succès",
+      "deleted": "Canton supprimé avec succès",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer le canton \"{{name}}\" ?"
+    }
+  },
+  "cities": {
+    "title": "Villes",
+    "searchPlaceholder": "Rechercher des villes...",
+    "results": "villes",
+    "allCantons": "Tous les cantons",
+    "fields": {
+      "name": "Nom",
+      "canton": "Canton",
+      "slug": "Slug",
+      "postalCodes": "Codes postaux",
+      "status": "Statut",
+      "active": "Actif"
+    },
+    "sort": {
+      "nameAZ": "Nom A–Z",
+      "nameZA": "Nom Z–A",
+      "newestFirst": "Plus récent d'abord"
+    },
+    "form": {
+      "createTitle": "Créer une ville",
+      "editTitle": "Modifier la ville",
+      "nameSection": "Nom (toutes les langues)",
+      "namePlaceholder": "Nom en {{lang}}",
+      "slugPlaceholder": "généré-automatiquement",
+      "slugHint": "Laisser vide pour générer automatiquement",
+      "selectCanton": "Sélectionner un canton",
+      "addPostalCode": "Ajouter un code postal"
+    },
+    "actions": {
+      "create": "Nouvelle ville"
+    },
+    "messages": {
+      "created": "Ville créée avec succès",
+      "updated": "Ville mise à jour avec succès",
+      "deleted": "Ville supprimée avec succès",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer la ville \"{{name}}\" ?"
+    }
+  }
+}

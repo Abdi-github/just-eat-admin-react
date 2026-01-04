@@ -1,0 +1,118 @@
+{
+  "appName": "Just Eat Admin",
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "restaurants": "Restaurants",
+    "orders": "Commandes",
+    "users": "Utilisateurs",
+    "applications": "Candidatures",
+    "reviews": "Avis",
+    "cuisines": "Cuisines",
+    "brands": "Marques",
+    "locations": "Emplacements",
+    "payments": "Paiements",
+    "deliveries": "Livraisons",
+    "promotions": "Promotions",
+    "analytics": "Analyses",
+    "notifications": "Notifications",
+    "settings": "Paramètres"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "publish": "Publier",
+    "suspend": "Suspendre",
+    "archive": "Archiver",
+    "refund": "Rembourser",
+    "assign": "Attribuer",
+    "flag": "Signaler",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "back": "Retour",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "view": "Voir",
+    "details": "Détails",
+    "saving": "Enregistrement...",
+    "viewAll": "Voir tout"
+  },
+  "status": {
+    "draft": "Brouillon",
+    "pending_approval": "En attente d'approbation",
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "published": "Publié",
+    "suspended": "Suspendu",
+    "archived": "Archivé",
+    "placed": "Passée",
+    "accepted": "Acceptée",
+    "preparing": "En préparation",
+    "ready": "Prête",
+    "picked_up": "Récupérée",
+    "in_transit": "En transit",
+    "delivered": "Livrée",
+    "cancelled": "Annulée",
+    "pending": "En attente",
+    "flagged": "Signalé",
+    "processing": "En cours",
+    "paid": "Payé",
+    "refunded": "Remboursé",
+    "failed": "Échoué",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "messages": {
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+    "saveSuccess": "Modifications enregistrées avec succès",
+    "deleteSuccess": "Élément supprimé avec succès",
+    "error": "Une erreur est survenue",
+    "noData": "Aucune donnée disponible",
+    "loading": "Chargement..."
+  },
+  "errors": {
+    "unauthorized": "Session expirée. Veuillez vous reconnecter.",
+    "forbidden": "Vous n'avez pas la permission d'effectuer cette action.",
+    "notFound": "La ressource demandée n'a pas été trouvée.",
+    "validation": "Veuillez vérifier vos données et réessayer.",
+    "network": "Erreur réseau. Veuillez vérifier votre connexion."
+  },
+  "pagination": {
+    "showing": "Affichage de {{from}} à {{to}} sur {{total}} résultats",
+    "page": "Page {{page}} sur {{totalPages}}",
+    "rowsPerPage": "Lignes par page"
+  },
+  "table": {
+    "noResults": "Aucun résultat trouvé",
+    "noData": "Aucune donnée disponible",
+    "actions": "Actions"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano",
+    "switchLanguage": "Changer de langue"
+  },
+  "header": {
+    "profile": "Profil",
+    "logout": "Déconnexion"
+  },
+  "roles": {
+    "super_admin": "Super administrateur",
+    "platform_admin": "Administrateur plateforme",
+    "support_agent": "Agent de support",
+    "restaurant_owner": "Propriétaire de restaurant",
+    "restaurant_staff": "Personnel de restaurant",
+    "courier": "Coursier",
+    "customer": "Client"
+  },
+  "currency": "CHF"
+}

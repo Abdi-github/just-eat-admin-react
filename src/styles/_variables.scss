@@ -1,0 +1,24 @@
+// Just Eat Admin Dashboard — Bootstrap variable overrides
+// This file is auto-imported into every SCSS file via vite.config.ts
+
+// Brand colors
+$primary: #e63946; // Just Eat red
+$secondary: #457b9d;
+$success: #2a9d8f;
+$info: #219ebc;
+$warning: #e9c46a;
+$danger: #d62828;
+$dark: #1d3557;
+$light: #f8f9fa;
+
+// Sidebar
+$sidebar-width: 260px;
+$sidebar-collapsed-width: 70px;
+$sidebar-bg: $dark;
+$sidebar-transition: 0.3s ease;
+
+// Header
+$header-height: 60px;
+
+// User avatar
+$avatar-size: 36px;

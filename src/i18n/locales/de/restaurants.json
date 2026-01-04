@@ -1,0 +1,81 @@
+{
+  "title": "Restaurants",
+  "list": {
+    "results": "Ergebnisse"
+  },
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "description": "Beschreibung",
+    "location": "Standort",
+    "status": "Status",
+    "rating": "Bewertung",
+    "reviews": "Bewertungen",
+    "active": "Aktiv",
+    "address": "Adresse",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "canton": "Kanton",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "deliveryFee": "Liefergebühr",
+    "minimumOrder": "Mindestbestellung",
+    "delivery": "Lieferung",
+    "pickup": "Abholung",
+    "partnerDelivery": "Partnerlieferung",
+    "minutes": "Min.",
+    "rejectionReason": "Ablehnungsgrund",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "publishedAt": "Veröffentlicht am",
+    "submittedAt": "Eingereicht",
+    "coverImage": "Titelbild"
+  },
+  "filters": {
+    "searchPlaceholder": "Restaurants suchen...",
+    "allStatuses": "Alle Status",
+    "newest": "Neueste",
+    "oldest": "Älteste",
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "highestRating": "Höchste Bewertung"
+  },
+  "sections": {
+    "deliveryOptions": "Lieferoptionen",
+    "cuisines": "Küchen",
+    "contactLocation": "Kontakt & Standort",
+    "brand": "Marke",
+    "timestamps": "Zeitstempel"
+  },
+  "badges": {
+    "featured": "Empfohlen"
+  },
+  "detail": {
+    "title": "Restaurant Details",
+    "loading": "Laden..."
+  },
+  "actions": {
+    "submitForApproval": "Zur Genehmigung einreichen",
+    "backToDraft": "Zurück zum Entwurf"
+  },
+  "modals": {
+    "rejectTitle": "Restaurant ablehnen",
+    "rejectDescription": "Bitte geben Sie einen Grund für die Ablehnung dieses Restaurants an. Der Besitzer wird benachrichtigt.",
+    "deleteTitle": "Restaurant löschen",
+    "deleteDescription": "Möchten Sie \"{{name}}\" wirklich dauerhaft löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+  },
+  "placeholders": {
+    "rejectionReason": "Geben Sie den Ablehnungsgrund ein..."
+  },
+  "pendingApprovals": {
+    "title": "Ausstehende Genehmigungen",
+    "viewAll": "Alle Restaurants anzeigen",
+    "noPending": "Keine ausstehenden Genehmigungen",
+    "allCaughtUp": "Alle Restaurants wurden überprüft!"
+  },
+  "messages": {
+    "statusChanged": "Restaurant-Status erfolgreich aktualisiert",
+    "deleted": "Restaurant erfolgreich gelöscht",
+    "updated": "Restaurant erfolgreich aktualisiert"
+  }
+}

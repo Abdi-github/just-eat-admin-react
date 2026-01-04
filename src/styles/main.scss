@@ -1,0 +1,175 @@
+// Bootstrap 5 + overrides
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// ========================================
+// Admin Layout
+// ========================================
+.admin-layout {
+  min-height: 100vh;
+}
+
+.admin-content {
+  margin-left: $sidebar-width;
+  transition: margin-left $sidebar-transition;
+  min-height: 100vh;
+
+  &.sidebar-collapsed {
+    margin-left: $sidebar-collapsed-width;
+  }
+}
+
+.admin-main {
+  min-height: calc(100vh - #{$header-height} - 60px);
+}
+
+// ========================================
+// Sidebar
+// ========================================
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  z-index: 1030;
+  overflow-y: auto;
+  transition: width $sidebar-transition;
+
+  &.collapsed {
+    width: $sidebar-collapsed-width;
+
+    .sidebar-brand {
+      font-size: 0.85rem;
+    }
+
+    .nav-text {
+      display: none;
+    }
+
+    .nav-icon {
+      margin-right: 0;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.sidebar-header {
+  height: $header-height;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-brand {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar-nav {
+  padding-top: 0.5rem;
+
+  .nav-item {
+    .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 0.6rem 1rem;
+      border-radius: 0;
+      transition: all 0.2s;
+      white-space: nowrap;
+
+      &:hover {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.08);
+      }
+
+      &.active {
+        color: #fff;
+        background-color: rgba($primary, 0.35);
+        border-left: 3px solid $primary;
+      }
+    }
+  }
+
+  .nav-icon {
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+    width: 24px;
+    text-align: center;
+  }
+
+  .nav-text {
+    font-size: 0.9rem;
+  }
+}
+
+.sidebar-divider {
+  opacity: 0.2;
+}
+
+// ========================================
+// Header
+// ========================================
+.admin-header {
+  height: $header-height;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+// ========================================
+// User Avatar
+// ========================================
+.user-avatar {
+  width: $avatar-size;
+  height: $avatar-size;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+// ========================================
+// Footer
+// ========================================
+.admin-footer {
+  flex-shrink: 0;
+}
+
+// ========================================
+// Auth Layout
+// ========================================
+.auth-layout {
+  background-color: $light;
+}
+
+// ========================================
+// Utilities
+// ========================================
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// ========================================
+// Responsive
+// ========================================
+@media (max-width: 991.98px) {
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform $sidebar-transition;
+
+    &.mobile-open {
+      transform: translateX(0);
+    }
+  }
+
+  .admin-content {
+    margin-left: 0 !important;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1029;
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Consegne",
+  "subtitle": "Gestione degli incarichi di consegna",
+  "table": {
+    "id": "ID consegna",
+    "orderNumber": "Ordine #",
+    "restaurant": "Ristorante",
+    "status": "Stato",
+    "courier": "Corriere",
+    "fee": "Tariffa",
+    "date": "Data",
+    "unassigned": "Non assegnato"
+  },
+  "filters": {
+    "status": "Stato",
+    "allStatuses": "Tutti gli stati",
+    "sort": "Ordinamento",
+    "dateFrom": "Data da",
+    "dateTo": "Data a"
+  },
+  "sort": {
+    "newestFirst": "Più recenti",
+    "oldestFirst": "Più vecchi"
+  },
+  "status": {
+    "PENDING": "In attesa",
+    "ASSIGNED": "Assegnato",
+    "PICKED_UP": "Ritirato",
+    "IN_TRANSIT": "In transito",
+    "DELIVERED": "Consegnato",
+    "CANCELLED": "Annullato",
+    "FAILED": "Fallito"
+  },
+  "actions": {
+    "assignCourier": "Assegna corriere",
+    "cancel": "Annulla consegna",
+    "cancelDelivery": "Annulla consegna"
+  },
+  "detail": {
+    "title": "Dettagli consegna",
+    "deliveryInfo": "Informazioni sulla consegna",
+    "deliveryId": "ID consegna",
+    "orderId": "ID ordine",
+    "fee": "Tariffa di consegna",
+    "distance": "Distanza",
+    "notes": "Note",
+    "restaurantInfo": "Informazioni sul ristorante",
+    "restaurant": "Ristorante",
+    "pickupAddress": "Indirizzo di ritiro",
+    "addresses": "Indirizzi",
+    "deliveryAddress": "Indirizzo di consegna",
+    "floor": "Piano",
+    "instructions": "Istruzioni",
+    "courierInfo": "Informazioni sul corriere",
+    "courierId": "ID corriere",
+    "courierLat": "Latitudine",
+    "courierLng": "Longitudine",
+    "locationUpdatedAt": "Posizione aggiornata il",
+    "noCourier": "Nessun corriere assegnato",
+    "timestamps": "Timestamp",
+    "createdAt": "Creato il",
+    "assignedAt": "Assegnato il",
+    "pickedUpAt": "Ritirato il",
+    "inTransitAt": "In transito dal",
+    "deliveredAt": "Consegnato il",
+    "cancelledAt": "Annullato il",
+    "estimatedPickup": "Ritiro stimato",
+    "estimatedDelivery": "Consegna stimata",
+    "cancellationInfo": "Informazioni sull'annullamento"
+  },
+  "assign": {
+    "title": "Assegna corriere",
+    "courierId": "ID corriere",
+    "courierIdPlaceholder": "Inserisci l'ID del corriere...",
+    "courierIdHelp": "Inserisci l'ObjectId MongoDB del corriere da assegnare.",
+    "submit": "Assegna",
+    "assigning": "Assegnazione in corso..."
+  },
+  "messages": {
+    "noDeliveries": "Nessuna consegna trovata",
+    "assignSuccess": "Corriere assegnato con successo",
+    "assignError": "Assegnazione del corriere fallita",
+    "cancelSuccess": "Consegna annullata con successo",
+    "cancelError": "Annullamento della consegna fallito",
+    "confirmCancel": "Sei sicuro di voler annullare questa consegna?"
+  }
+}

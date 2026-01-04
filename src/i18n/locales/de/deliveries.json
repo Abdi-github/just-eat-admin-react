@@ -1,0 +1,87 @@
+{
+  "title": "Lieferungen",
+  "subtitle": "Lieferauftragsverwaltung",
+  "table": {
+    "id": "Liefer-ID",
+    "orderNumber": "Bestellung #",
+    "restaurant": "Restaurant",
+    "status": "Status",
+    "courier": "Kurier",
+    "fee": "Gebühr",
+    "date": "Datum",
+    "unassigned": "Nicht zugewiesen"
+  },
+  "filters": {
+    "status": "Status",
+    "allStatuses": "Alle Status",
+    "sort": "Sortierung",
+    "dateFrom": "Datum von",
+    "dateTo": "Datum bis"
+  },
+  "sort": {
+    "newestFirst": "Neueste zuerst",
+    "oldestFirst": "Älteste zuerst"
+  },
+  "status": {
+    "PENDING": "Ausstehend",
+    "ASSIGNED": "Zugewiesen",
+    "PICKED_UP": "Abgeholt",
+    "IN_TRANSIT": "Unterwegs",
+    "DELIVERED": "Zugestellt",
+    "CANCELLED": "Storniert",
+    "FAILED": "Fehlgeschlagen"
+  },
+  "actions": {
+    "assignCourier": "Kurier zuweisen",
+    "cancel": "Lieferung stornieren",
+    "cancelDelivery": "Lieferung stornieren"
+  },
+  "detail": {
+    "title": "Lieferdetails",
+    "deliveryInfo": "Lieferinformationen",
+    "deliveryId": "Liefer-ID",
+    "orderId": "Bestell-ID",
+    "fee": "Liefergebühr",
+    "distance": "Entfernung",
+    "notes": "Notizen",
+    "restaurantInfo": "Restaurantinformationen",
+    "restaurant": "Restaurant",
+    "pickupAddress": "Abholadresse",
+    "addresses": "Adressen",
+    "deliveryAddress": "Lieferadresse",
+    "floor": "Stockwerk",
+    "instructions": "Anweisungen",
+    "courierInfo": "Kurierinformationen",
+    "courierId": "Kurier-ID",
+    "courierLat": "Breitengrad",
+    "courierLng": "Längengrad",
+    "locationUpdatedAt": "Standort aktualisiert am",
+    "noCourier": "Kein Kurier zugewiesen",
+    "timestamps": "Zeitstempel",
+    "createdAt": "Erstellt am",
+    "assignedAt": "Zugewiesen am",
+    "pickedUpAt": "Abgeholt am",
+    "inTransitAt": "Unterwegs seit",
+    "deliveredAt": "Zugestellt am",
+    "cancelledAt": "Storniert am",
+    "estimatedPickup": "Geschätzte Abholung",
+    "estimatedDelivery": "Geschätzte Lieferung",
+    "cancellationInfo": "Stornierungsinformationen"
+  },
+  "assign": {
+    "title": "Kurier zuweisen",
+    "courierId": "Kurier-ID",
+    "courierIdPlaceholder": "Kurier-ID eingeben...",
+    "courierIdHelp": "Geben Sie die MongoDB ObjectId des zuzuweisenden Kuriers ein.",
+    "submit": "Zuweisen",
+    "assigning": "Wird zugewiesen..."
+  },
+  "messages": {
+    "noDeliveries": "Keine Lieferungen gefunden",
+    "assignSuccess": "Kurier erfolgreich zugewiesen",
+    "assignError": "Kurier konnte nicht zugewiesen werden",
+    "cancelSuccess": "Lieferung erfolgreich storniert",
+    "cancelError": "Lieferung konnte nicht storniert werden",
+    "confirmCancel": "Sind Sie sicher, dass Sie diese Lieferung stornieren möchten?"
+  }
+}

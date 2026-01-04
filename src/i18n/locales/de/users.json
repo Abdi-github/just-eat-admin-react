@@ -1,0 +1,79 @@
+{
+  "title": "Benutzerverwaltung",
+  "fields": {
+    "name": "Name",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "roles": "Rollen",
+    "status": "Status",
+    "verification": "Verifizierung",
+    "verified": "Verifiziert",
+    "unverified": "Nicht verifiziert",
+    "active": "Aktiv",
+    "lastLogin": "Letzte Anmeldung",
+    "createdAt": "Erstellt",
+    "language": "Sprache",
+    "password": "Passwort"
+  },
+  "filters": {
+    "searchPlaceholder": "Nach Name oder E-Mail suchen...",
+    "allStatuses": "Alle Status"
+  },
+  "sort": {
+    "newestFirst": "Neueste zuerst",
+    "oldestFirst": "Älteste zuerst",
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "lastLogin": "Letzte Anmeldung"
+  },
+  "list": {
+    "results": "Benutzer"
+  },
+  "stats": {
+    "total": "Gesamt",
+    "active": "Aktiv",
+    "verified": "Verifiziert",
+    "newLast30Days": "Neu (30 Tage)"
+  },
+  "detail": {
+    "title": "Benutzerdetails",
+    "loading": "Benutzer wird geladen...",
+    "userInfo": "Benutzerinformationen",
+    "roles": "Rollen",
+    "permissions": "Berechtigungen",
+    "manageRoles": "Rollen verwalten",
+    "noRoles": "Keine Rollen zugewiesen",
+    "noPermissions": "Keine Berechtigungen"
+  },
+  "form": {
+    "createTitle": "Neuen Benutzer erstellen",
+    "editTitle": "Benutzer bearbeiten",
+    "firstNamePlaceholder": "Vorname eingeben",
+    "lastNamePlaceholder": "Nachname eingeben",
+    "emailPlaceholder": "E-Mail-Adresse eingeben",
+    "passwordPlaceholder": "Passwort eingeben",
+    "phonePlaceholder": "+41 XX XXX XX XX",
+    "selectRole": "Rolle auswählen..."
+  },
+  "actions": {
+    "createUser": "Benutzer erstellen",
+    "activate": "Aktivieren",
+    "suspend": "Sperren",
+    "removeRole": "Rolle entfernen"
+  },
+  "messages": {
+    "created": "Benutzer erfolgreich erstellt",
+    "updated": "Benutzer erfolgreich aktualisiert",
+    "deleted": "Benutzer erfolgreich gelöscht",
+    "activated": "Benutzer erfolgreich aktiviert",
+    "suspended": "Benutzer erfolgreich gesperrt",
+    "roleAssigned": "Rolle erfolgreich zugewiesen",
+    "roleRemoved": "Rolle erfolgreich entfernt",
+    "allRolesAssigned": "Alle verfügbaren Rollen sind zugewiesen",
+    "confirmDelete": "Möchten Sie {{name}} wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirmActivate": "Benutzer {{name}} aktivieren?",
+    "confirmSuspend": "Benutzer {{name}} sperren? Der Zugang zur Plattform wird entzogen."
+  }
+}

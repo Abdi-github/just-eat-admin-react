@@ -1,0 +1,45 @@
+{
+  "title": "Dashboard",
+  "errorLoading": "Impossibile caricare i dati del dashboard",
+  "stats": {
+    "totalOrders": "Ordini totali",
+    "totalRevenue": "Fatturato totale",
+    "activeRestaurants": "Ristoranti attivi",
+    "totalUsers": "Utenti totali",
+    "delivered": "consegnati",
+    "avgOrder": "ordine medio",
+    "totalRestaurants": "totale",
+    "newUsers": "nuovi in questo periodo"
+  },
+  "recentOrders": {
+    "title": "Ordini recenti",
+    "orderNumber": "Ordine #",
+    "restaurant": "Ristorante",
+    "status": "Stato",
+    "total": "Totale",
+    "payment": "Pagamento",
+    "time": "Ora"
+  },
+  "pendingApprovals": {
+    "title": "Approvazioni in sospeso",
+    "restaurant": "Ristorante",
+    "location": "Località",
+    "status": "Stato",
+    "submitted": "Inviato",
+    "noPending": "Nessuna approvazione in sospeso"
+  },
+  "charts": {
+    "ordersOverTime": "Ordini nel tempo",
+    "revenueOverTime": "Ricavi nel tempo",
+    "orders": "Ordini",
+    "revenue": "Ricavi",
+    "errorLoading": "Impossibile caricare i dati del grafico",
+    "noData": "Nessun dato disponibile"
+  },
+  "paymentMethods": {
+    "card": "Carta",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Contanti"
+  }
+}

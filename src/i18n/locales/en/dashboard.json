@@ -1,0 +1,45 @@
+{
+  "title": "Dashboard",
+  "errorLoading": "Failed to load dashboard data",
+  "stats": {
+    "totalOrders": "Total Orders",
+    "totalRevenue": "Total Revenue",
+    "activeRestaurants": "Active Restaurants",
+    "totalUsers": "Total Users",
+    "delivered": "delivered",
+    "avgOrder": "avg. order",
+    "totalRestaurants": "total",
+    "newUsers": "new this period"
+  },
+  "recentOrders": {
+    "title": "Recent Orders",
+    "orderNumber": "Order #",
+    "restaurant": "Restaurant",
+    "status": "Status",
+    "total": "Total",
+    "payment": "Payment",
+    "time": "Time"
+  },
+  "pendingApprovals": {
+    "title": "Pending Approvals",
+    "restaurant": "Restaurant",
+    "location": "Location",
+    "status": "Status",
+    "submitted": "Submitted",
+    "noPending": "No pending approvals"
+  },
+  "charts": {
+    "ordersOverTime": "Orders Over Time",
+    "revenueOverTime": "Revenue Over Time",
+    "orders": "Orders",
+    "revenue": "Revenue",
+    "errorLoading": "Failed to load chart data",
+    "noData": "No data available"
+  },
+  "paymentMethods": {
+    "card": "Card",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Cash"
+  }
+}

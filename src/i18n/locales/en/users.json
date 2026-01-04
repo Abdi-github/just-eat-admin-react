@@ -1,0 +1,79 @@
+{
+  "title": "User Management",
+  "fields": {
+    "name": "Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "roles": "Roles",
+    "status": "Status",
+    "verification": "Verification",
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "active": "Active",
+    "lastLogin": "Last Login",
+    "createdAt": "Created",
+    "language": "Language",
+    "password": "Password"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by name or email...",
+    "allStatuses": "All Statuses"
+  },
+  "sort": {
+    "newestFirst": "Newest First",
+    "oldestFirst": "Oldest First",
+    "nameAZ": "Name A–Z",
+    "nameZA": "Name Z–A",
+    "lastLogin": "Last Login"
+  },
+  "list": {
+    "results": "users"
+  },
+  "stats": {
+    "total": "Total Users",
+    "active": "Active",
+    "verified": "Verified",
+    "newLast30Days": "New (30 days)"
+  },
+  "detail": {
+    "title": "User Details",
+    "loading": "Loading user...",
+    "userInfo": "User Information",
+    "roles": "Roles",
+    "permissions": "Permissions",
+    "manageRoles": "Manage Roles",
+    "noRoles": "No roles assigned",
+    "noPermissions": "No permissions"
+  },
+  "form": {
+    "createTitle": "Create New User",
+    "editTitle": "Edit User",
+    "firstNamePlaceholder": "Enter first name",
+    "lastNamePlaceholder": "Enter last name",
+    "emailPlaceholder": "Enter email address",
+    "passwordPlaceholder": "Enter password",
+    "phonePlaceholder": "+41 XX XXX XX XX",
+    "selectRole": "Select a role..."
+  },
+  "actions": {
+    "createUser": "Create User",
+    "activate": "Activate",
+    "suspend": "Suspend",
+    "removeRole": "Remove Role"
+  },
+  "messages": {
+    "created": "User created successfully",
+    "updated": "User updated successfully",
+    "deleted": "User deleted successfully",
+    "activated": "User activated successfully",
+    "suspended": "User suspended successfully",
+    "roleAssigned": "Role assigned successfully",
+    "roleRemoved": "Role removed successfully",
+    "allRolesAssigned": "All available roles are assigned",
+    "confirmDelete": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+    "confirmActivate": "Activate user {{name}}?",
+    "confirmSuspend": "Suspend user {{name}}? They will lose access to the platform."
+  }
+}

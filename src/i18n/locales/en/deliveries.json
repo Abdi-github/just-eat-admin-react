@@ -1,0 +1,87 @@
+{
+  "title": "Deliveries",
+  "subtitle": "Delivery assignment management",
+  "table": {
+    "id": "Delivery ID",
+    "orderNumber": "Order #",
+    "restaurant": "Restaurant",
+    "status": "Status",
+    "courier": "Courier",
+    "fee": "Fee",
+    "date": "Date",
+    "unassigned": "Unassigned"
+  },
+  "filters": {
+    "status": "Status",
+    "allStatuses": "All Statuses",
+    "sort": "Sort",
+    "dateFrom": "Date From",
+    "dateTo": "Date To"
+  },
+  "sort": {
+    "newestFirst": "Newest First",
+    "oldestFirst": "Oldest First"
+  },
+  "status": {
+    "PENDING": "Pending",
+    "ASSIGNED": "Assigned",
+    "PICKED_UP": "Picked Up",
+    "IN_TRANSIT": "In Transit",
+    "DELIVERED": "Delivered",
+    "CANCELLED": "Cancelled",
+    "FAILED": "Failed"
+  },
+  "actions": {
+    "assignCourier": "Assign Courier",
+    "cancel": "Cancel Delivery",
+    "cancelDelivery": "Cancel Delivery"
+  },
+  "detail": {
+    "title": "Delivery Details",
+    "deliveryInfo": "Delivery Information",
+    "deliveryId": "Delivery ID",
+    "orderId": "Order ID",
+    "fee": "Delivery Fee",
+    "distance": "Distance",
+    "notes": "Notes",
+    "restaurantInfo": "Restaurant Information",
+    "restaurant": "Restaurant",
+    "pickupAddress": "Pickup Address",
+    "addresses": "Addresses",
+    "deliveryAddress": "Delivery Address",
+    "floor": "Floor",
+    "instructions": "Instructions",
+    "courierInfo": "Courier Information",
+    "courierId": "Courier ID",
+    "courierLat": "Latitude",
+    "courierLng": "Longitude",
+    "locationUpdatedAt": "Location Updated At",
+    "noCourier": "No courier assigned",
+    "timestamps": "Timestamps",
+    "createdAt": "Created At",
+    "assignedAt": "Assigned At",
+    "pickedUpAt": "Picked Up At",
+    "inTransitAt": "In Transit At",
+    "deliveredAt": "Delivered At",
+    "cancelledAt": "Cancelled At",
+    "estimatedPickup": "Estimated Pickup",
+    "estimatedDelivery": "Estimated Delivery",
+    "cancellationInfo": "Cancellation Information"
+  },
+  "assign": {
+    "title": "Assign Courier",
+    "courierId": "Courier ID",
+    "courierIdPlaceholder": "Enter courier ID...",
+    "courierIdHelp": "Enter the MongoDB ObjectId of the courier to assign.",
+    "submit": "Assign",
+    "assigning": "Assigning..."
+  },
+  "messages": {
+    "noDeliveries": "No deliveries found",
+    "assignSuccess": "Courier assigned successfully",
+    "assignError": "Failed to assign courier",
+    "cancelSuccess": "Delivery cancelled successfully",
+    "cancelError": "Failed to cancel delivery",
+    "confirmCancel": "Are you sure you want to cancel this delivery?"
+  }
+}

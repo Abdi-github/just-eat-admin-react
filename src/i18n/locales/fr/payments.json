@@ -1,0 +1,84 @@
+{
+  "title": "Paiements",
+  "subtitle": "Gestion des transactions de paiement",
+  "table": {
+    "id": "ID de transaction",
+    "amount": "Montant",
+    "method": "Méthode",
+    "provider": "Fournisseur",
+    "status": "Statut",
+    "attempts": "Tentatives",
+    "date": "Date",
+    "orderId": "ID de commande"
+  },
+  "filters": {
+    "allStatuses": "Tous les statuts",
+    "allMethods": "Toutes les méthodes",
+    "paymentMethod": "Méthode de paiement",
+    "orderId": "ID de commande",
+    "orderIdPlaceholder": "Filtrer par ID de commande..."
+  },
+  "status": {
+    "PENDING": "En attente",
+    "PROCESSING": "En cours",
+    "COMPLETED": "Terminé",
+    "FAILED": "Échoué",
+    "REFUNDED": "Remboursé",
+    "PARTIAL_REFUND": "Remboursement partiel",
+    "CANCELLED": "Annulé",
+    "EXPIRED": "Expiré"
+  },
+  "methods": {
+    "card": "Carte de crédit",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Espèces"
+  },
+  "detail": {
+    "title": "Détails de la transaction",
+    "transactionInfo": "Informations sur la transaction",
+    "transactionId": "ID de transaction",
+    "orderId": "ID de commande",
+    "userId": "ID utilisateur",
+    "amount": "Montant",
+    "currency": "Devise",
+    "attempts": "Tentatives",
+    "paymentMethod": "Méthode de paiement",
+    "method": "Méthode",
+    "provider": "Fournisseur",
+    "providerTxId": "ID de transaction du fournisseur",
+    "cashConfirmed": "Espèces confirmées",
+    "cashCollectedAt": "Espèces collectées le",
+    "refundInfo": "Informations de remboursement",
+    "refundAmount": "Montant du remboursement",
+    "refundReason": "Raison du remboursement",
+    "refundedAt": "Remboursé le",
+    "errorInfo": "Informations d'erreur",
+    "errorCode": "Code d'erreur",
+    "errorMessage": "Message d'erreur",
+    "timestamps": "Horodatages",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "sessionExpiresAt": "Session expire le"
+  },
+  "refund": {
+    "title": "Traiter le remboursement",
+    "transactionAmount": "Montant de la transaction",
+    "type": "Type de remboursement",
+    "fullRefund": "Remboursement complet",
+    "partialRefund": "Remboursement partiel",
+    "amount": "Montant du remboursement",
+    "maxAmount": "Maximum : {{amount}}",
+    "reason": "Raison",
+    "reasonPlaceholder": "Entrer la raison du remboursement (optionnel)...",
+    "submit": "Traiter le remboursement",
+    "processing": "Traitement en cours..."
+  },
+  "messages": {
+    "noTransactions": "Aucune transaction trouvée",
+    "refundSuccess": "Remboursement traité avec succès",
+    "refundError": "Échec du traitement du remboursement",
+    "notFound": "Transaction de paiement non trouvée",
+    "cannotRefund": "Cette transaction ne peut pas être remboursée. Seuls les paiements terminés sont éligibles au remboursement."
+  }
+}

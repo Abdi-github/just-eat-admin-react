@@ -1,0 +1,118 @@
+{
+  "appName": "Just Eat Admin",
+  "nav": {
+    "dashboard": "Cruscotto",
+    "restaurants": "Ristoranti",
+    "orders": "Ordini",
+    "users": "Utenti",
+    "applications": "Candidature",
+    "reviews": "Recensioni",
+    "cuisines": "Cucine",
+    "brands": "Marchi",
+    "locations": "Località",
+    "payments": "Pagamenti",
+    "deliveries": "Consegne",
+    "promotions": "Promozioni",
+    "analytics": "Analisi",
+    "notifications": "Notifiche",
+    "settings": "Impostazioni"
+  },
+  "actions": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "create": "Crea",
+    "approve": "Approva",
+    "reject": "Rifiuta",
+    "publish": "Pubblica",
+    "suspend": "Sospendi",
+    "archive": "Archivia",
+    "refund": "Rimborsa",
+    "assign": "Assegna",
+    "flag": "Segnala",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "reset": "Reimposta",
+    "back": "Indietro",
+    "confirm": "Conferma",
+    "close": "Chiudi",
+    "view": "Visualizza",
+    "details": "Dettagli",
+    "saving": "Salvataggio...",
+    "viewAll": "Mostra tutto"
+  },
+  "status": {
+    "draft": "Bozza",
+    "pending_approval": "In attesa di approvazione",
+    "approved": "Approvato",
+    "rejected": "Rifiutato",
+    "published": "Pubblicato",
+    "suspended": "Sospeso",
+    "archived": "Archiviato",
+    "placed": "Effettuato",
+    "accepted": "Accettato",
+    "preparing": "In preparazione",
+    "ready": "Pronto",
+    "picked_up": "Ritirato",
+    "in_transit": "In transito",
+    "delivered": "Consegnato",
+    "cancelled": "Annullato",
+    "pending": "In attesa",
+    "flagged": "Segnalato",
+    "processing": "In elaborazione",
+    "paid": "Pagato",
+    "refunded": "Rimborsato",
+    "failed": "Fallito",
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "messages": {
+    "confirmDelete": "Sei sicuro di voler eliminare questo elemento?",
+    "saveSuccess": "Modifiche salvate con successo",
+    "deleteSuccess": "Elemento eliminato con successo",
+    "error": "Si è verificato un errore",
+    "noData": "Nessun dato disponibile",
+    "loading": "Caricamento..."
+  },
+  "errors": {
+    "unauthorized": "Sessione scaduta. Effettua nuovamente l'accesso.",
+    "forbidden": "Non hai il permesso di eseguire questa azione.",
+    "notFound": "La risorsa richiesta non è stata trovata.",
+    "validation": "Verifica i tuoi dati e riprova.",
+    "network": "Errore di rete. Verifica la tua connessione."
+  },
+  "pagination": {
+    "showing": "Visualizzazione da {{from}} a {{to}} di {{total}} risultati",
+    "page": "Pagina {{page}} di {{totalPages}}",
+    "rowsPerPage": "Righe per pagina"
+  },
+  "table": {
+    "noResults": "Nessun risultato trovato",
+    "noData": "Nessun dato disponibile",
+    "actions": "Azioni"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano",
+    "switchLanguage": "Cambia lingua"
+  },
+  "header": {
+    "profile": "Profilo",
+    "logout": "Esci"
+  },
+  "roles": {
+    "super_admin": "Super amministratore",
+    "platform_admin": "Amministratore piattaforma",
+    "support_agent": "Agente di supporto",
+    "restaurant_owner": "Proprietario ristorante",
+    "restaurant_staff": "Personale ristorante",
+    "courier": "Corriere",
+    "customer": "Cliente"
+  },
+  "currency": "CHF"
+}

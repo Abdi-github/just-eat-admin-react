@@ -1,0 +1,84 @@
+{
+  "title": "Payments",
+  "subtitle": "Payment transaction management",
+  "table": {
+    "id": "Transaction ID",
+    "amount": "Amount",
+    "method": "Method",
+    "provider": "Provider",
+    "status": "Status",
+    "attempts": "Attempts",
+    "date": "Date",
+    "orderId": "Order ID"
+  },
+  "filters": {
+    "allStatuses": "All Statuses",
+    "allMethods": "All Methods",
+    "paymentMethod": "Payment Method",
+    "orderId": "Order ID",
+    "orderIdPlaceholder": "Filter by Order ID..."
+  },
+  "status": {
+    "PENDING": "Pending",
+    "PROCESSING": "Processing",
+    "COMPLETED": "Completed",
+    "FAILED": "Failed",
+    "REFUNDED": "Refunded",
+    "PARTIAL_REFUND": "Partial Refund",
+    "CANCELLED": "Cancelled",
+    "EXPIRED": "Expired"
+  },
+  "methods": {
+    "card": "Credit Card",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "cash": "Cash"
+  },
+  "detail": {
+    "title": "Transaction Details",
+    "transactionInfo": "Transaction Information",
+    "transactionId": "Transaction ID",
+    "orderId": "Order ID",
+    "userId": "User ID",
+    "amount": "Amount",
+    "currency": "Currency",
+    "attempts": "Attempts",
+    "paymentMethod": "Payment Method",
+    "method": "Method",
+    "provider": "Provider",
+    "providerTxId": "Provider Transaction ID",
+    "cashConfirmed": "Cash Confirmed",
+    "cashCollectedAt": "Cash Collected At",
+    "refundInfo": "Refund Information",
+    "refundAmount": "Refund Amount",
+    "refundReason": "Refund Reason",
+    "refundedAt": "Refunded At",
+    "errorInfo": "Error Information",
+    "errorCode": "Error Code",
+    "errorMessage": "Error Message",
+    "timestamps": "Timestamps",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "sessionExpiresAt": "Session Expires At"
+  },
+  "refund": {
+    "title": "Process Refund",
+    "transactionAmount": "Transaction Amount",
+    "type": "Refund Type",
+    "fullRefund": "Full Refund",
+    "partialRefund": "Partial Refund",
+    "amount": "Refund Amount",
+    "maxAmount": "Maximum: {{amount}}",
+    "reason": "Reason",
+    "reasonPlaceholder": "Enter refund reason (optional)...",
+    "submit": "Process Refund",
+    "processing": "Processing..."
+  },
+  "messages": {
+    "noTransactions": "No transactions found",
+    "refundSuccess": "Refund processed successfully",
+    "refundError": "Failed to process refund",
+    "notFound": "Payment transaction not found",
+    "cannotRefund": "This transaction cannot be refunded. Only completed payments are eligible for refunds."
+  }
+}

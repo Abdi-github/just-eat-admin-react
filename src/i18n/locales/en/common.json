@@ -1,0 +1,118 @@
+{
+  "appName": "Just Eat Admin",
+  "nav": {
+    "dashboard": "Dashboard",
+    "restaurants": "Restaurants",
+    "orders": "Orders",
+    "users": "Users",
+    "applications": "Applications",
+    "reviews": "Reviews",
+    "cuisines": "Cuisines",
+    "brands": "Brands",
+    "locations": "Locations",
+    "payments": "Payments",
+    "deliveries": "Deliveries",
+    "promotions": "Promotions",
+    "analytics": "Analytics",
+    "notifications": "Notifications",
+    "settings": "Settings"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "approve": "Approve",
+    "reject": "Reject",
+    "publish": "Publish",
+    "suspend": "Suspend",
+    "archive": "Archive",
+    "refund": "Refund",
+    "assign": "Assign",
+    "flag": "Flag",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "back": "Back",
+    "confirm": "Confirm",
+    "close": "Close",
+    "view": "View",
+    "details": "Details",
+    "saving": "Saving...",
+    "viewAll": "View All"
+  },
+  "status": {
+    "draft": "Draft",
+    "pending_approval": "Pending Approval",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "published": "Published",
+    "suspended": "Suspended",
+    "archived": "Archived",
+    "placed": "Placed",
+    "accepted": "Accepted",
+    "preparing": "Preparing",
+    "ready": "Ready",
+    "picked_up": "Picked Up",
+    "in_transit": "In Transit",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "flagged": "Flagged",
+    "processing": "Processing",
+    "paid": "Paid",
+    "refunded": "Refunded",
+    "failed": "Failed",
+    "active": "Active",
+    "inactive": "Inactive",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "messages": {
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "saveSuccess": "Changes saved successfully",
+    "deleteSuccess": "Item deleted successfully",
+    "error": "An error occurred",
+    "noData": "No data available",
+    "loading": "Loading..."
+  },
+  "errors": {
+    "unauthorized": "Session expired. Please log in again.",
+    "forbidden": "You do not have permission to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "validation": "Please check your input and try again.",
+    "network": "Network error. Please check your connection."
+  },
+  "pagination": {
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "page": "Page {{page}} of {{totalPages}}",
+    "rowsPerPage": "Rows per page"
+  },
+  "table": {
+    "noResults": "No results found",
+    "noData": "No data available",
+    "actions": "Actions"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano",
+    "switchLanguage": "Switch Language"
+  },
+  "header": {
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "platform_admin": "Platform Admin",
+    "support_agent": "Support Agent",
+    "restaurant_owner": "Restaurant Owner",
+    "restaurant_staff": "Restaurant Staff",
+    "courier": "Courier",
+    "customer": "Customer"
+  },
+  "currency": "CHF"
+}

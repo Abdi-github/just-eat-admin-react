@@ -1,0 +1,41 @@
+{
+  "title": "Cuisines",
+  "fields": {
+    "name": "Nom",
+    "slug": "Slug",
+    "status": "Statut",
+    "image": "Image",
+    "imageUrl": "URL de l'image",
+    "active": "Actif",
+    "restaurants": "Restaurants"
+  },
+  "filters": {
+    "searchPlaceholder": "Rechercher des cuisines..."
+  },
+  "sort": {
+    "nameAZ": "Nom A–Z",
+    "nameZA": "Nom Z–A",
+    "newestFirst": "Plus récent d'abord",
+    "oldestFirst": "Plus ancien d'abord"
+  },
+  "list": {
+    "results": "cuisines"
+  },
+  "form": {
+    "createTitle": "Créer une cuisine",
+    "editTitle": "Modifier la cuisine",
+    "nameSection": "Nom (toutes les langues)",
+    "namePlaceholder": "Nom en {{lang}}",
+    "slugPlaceholder": "généré-automatiquement",
+    "slugHint": "Laisser vide pour générer automatiquement"
+  },
+  "actions": {
+    "create": "Nouvelle cuisine"
+  },
+  "messages": {
+    "created": "Cuisine créée avec succès",
+    "updated": "Cuisine mise à jour avec succès",
+    "deleted": "Cuisine supprimée avec succès",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer la cuisine \"{{name}}\" ?"
+  }
+}

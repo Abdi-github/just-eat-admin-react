@@ -1,0 +1,59 @@
+{
+  "title": "Benachrichtigungen",
+  "form": {
+    "title": "Benachrichtigung senden",
+    "userIds": "Benutzer-IDs",
+    "userIdsPlaceholder": "Benutzer-IDs eingeben (eine pro Zeile oder kommagetrennt)",
+    "userIdsHelp": "Benutzer-IDs durch Kommas oder neue Zeilen trennen",
+    "type": "Benachrichtigungstyp",
+    "channel": "Kanal",
+    "priority": "Priorität",
+    "notifTitle": "Titel",
+    "titlePlaceholder": "Benachrichtigungstitel (max. 200 Zeichen)",
+    "body": "Nachricht",
+    "bodyPlaceholder": "Benachrichtigungstext (max. 2000 Zeichen)",
+    "send": "Benachrichtigung senden",
+    "sending": "Wird gesendet..."
+  },
+  "types": {
+    "ORDER_PLACED": "Bestellung aufgegeben",
+    "ORDER_ACCEPTED": "Bestellung angenommen",
+    "ORDER_REJECTED": "Bestellung abgelehnt",
+    "ORDER_PREPARING": "Bestellung in Zubereitung",
+    "ORDER_READY": "Bestellung bereit",
+    "ORDER_PICKED_UP": "Bestellung abgeholt",
+    "ORDER_IN_TRANSIT": "Bestellung unterwegs",
+    "ORDER_DELIVERED": "Bestellung geliefert",
+    "ORDER_CANCELLED": "Bestellung storniert",
+    "PAYMENT_RECEIVED": "Zahlung erhalten",
+    "PAYMENT_REFUNDED": "Zahlung erstattet",
+    "RESTAURANT_APPROVED": "Restaurant genehmigt",
+    "RESTAURANT_REJECTED": "Restaurant abgelehnt",
+    "RESTAURANT_PUBLISHED": "Restaurant veröffentlicht",
+    "RESTAURANT_SUSPENDED": "Restaurant gesperrt",
+    "REVIEW_APPROVED": "Bewertung genehmigt",
+    "REVIEW_REJECTED": "Bewertung abgelehnt",
+    "PROMOTION_AVAILABLE": "Aktion verfügbar",
+    "ACCOUNT_UPDATE": "Kontoaktualisierung",
+    "SYSTEM": "System"
+  },
+  "channels": {
+    "IN_APP": "In-App",
+    "EMAIL": "E-Mail",
+    "BOTH": "Beide (In-App + E-Mail)"
+  },
+  "priorities": {
+    "LOW": "Niedrig",
+    "NORMAL": "Normal",
+    "HIGH": "Hoch",
+    "URGENT": "Dringend"
+  },
+  "messages": {
+    "sendSuccess": "Benachrichtigung an {{count}} Benutzer gesendet",
+    "lastSent": "Letzte Benachrichtigung an {{count}} Benutzer gesendet"
+  },
+  "errors": {
+    "noUsers": "Bitte geben Sie mindestens eine Benutzer-ID ein",
+    "sendFailed": "Benachrichtigung konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+  }
+}

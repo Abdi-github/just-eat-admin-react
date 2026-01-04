@@ -1,0 +1,52 @@
+{
+  "title": "Modération des avis",
+  "fields": {
+    "reviewer": "Évaluateur",
+    "restaurant": "Restaurant",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "status": "Statut",
+    "verified": "Vérifié",
+    "unverified": "Non vérifié",
+    "createdAt": "Créé le",
+    "moderationReason": "Raison de modération",
+    "restaurantReply": "Réponse du restaurant",
+    "orderId": "ID de commande",
+    "name": "Nom"
+  },
+  "filters": {
+    "allStatuses": "Tous les statuts",
+    "allRatings": "Toutes les notes",
+    "minStars": "{{count}}+ Étoiles"
+  },
+  "sort": {
+    "newestFirst": "Plus récents",
+    "oldestFirst": "Plus anciens",
+    "highestRating": "Note la plus élevée",
+    "lowestRating": "Note la plus basse"
+  },
+  "list": {
+    "results": "avis"
+  },
+  "detail": {
+    "title": "Détails de l'avis",
+    "loading": "Chargement de l'avis...",
+    "reviewContent": "Contenu de l'avis",
+    "noComment": "Aucun commentaire fourni",
+    "reviewer": "Évaluateur",
+    "restaurant": "Restaurant",
+    "timestamps": "Horodatages"
+  },
+  "moderation": {
+    "rejectTitle": "Rejeter l'avis",
+    "reasonLabel": "Raison du rejet",
+    "reasonPlaceholder": "Veuillez fournir une raison pour le rejet..."
+  },
+  "messages": {
+    "approved": "Avis approuvé avec succès",
+    "rejected": "Avis rejeté avec succès",
+    "flagged": "Avis signalé pour examen",
+    "deleted": "Avis supprimé avec succès",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet avis ? Cette action est irréversible."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Analytics",
+  "stats": {
+    "totalOrders": "Total Orders",
+    "totalRevenue": "Total Revenue",
+    "restaurants": "Restaurants",
+    "users": "Users",
+    "delivered": "delivered",
+    "active": "active",
+    "avgOrder": "Avg. order",
+    "newInPeriod": "new in period"
+  },
+  "dateRange": {
+    "preset": "Date Range",
+    "custom": "Custom Range",
+    "from": "From",
+    "to": "To",
+    "apply": "Apply",
+    "period": "Period",
+    "presets": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "this_week": "This Week",
+      "this_month": "This Month",
+      "last_7_days": "Last 7 Days",
+      "last_30_days": "Last 30 Days",
+      "last_90_days": "Last 90 Days",
+      "this_year": "This Year"
+    },
+    "periods": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    }
+  },
+  "charts": {
+    "revenueOverTime": "Revenue Over Time",
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "orderStatusBreakdown": "Order Status Breakdown",
+    "orderTypeBreakdown": "Order Type",
+    "paymentMethodBreakdown": "Payment Methods",
+    "restaurantStatusBreakdown": "Restaurant Status",
+    "restaurantSummary": "Restaurant Summary",
+    "topRestaurants": "Top Restaurants",
+    "count": "Count",
+    "noData": "No data available for the selected period",
+    "orderTypes": {
+      "delivery": "Delivery",
+      "pickup": "Pickup"
+    },
+    "paymentMethods": {
+      "stripe_card": "Credit Card",
+      "twint": "TWINT",
+      "postfinance": "PostFinance",
+      "cash": "Cash"
+    }
+  },
+  "table": {
+    "rank": "#",
+    "restaurant": "Restaurant",
+    "orders": "Orders",
+    "revenue": "Revenue",
+    "avgOrder": "Avg. Order"
+  },
+  "errors": {
+    "loadFailed": "Failed to load analytics data. Please try again later."
+  }
+}

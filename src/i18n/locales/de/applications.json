@@ -1,0 +1,43 @@
+{
+  "title": "Bewerbungen",
+  "stats": {
+    "total": "Alle Bewerbungen",
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "rejected": "Abgelehnt"
+  },
+  "columns": {
+    "applicant": "Bewerber",
+    "phone": "Telefon",
+    "type": "Typ",
+    "details": "Details",
+    "status": "Status",
+    "appliedAt": "Beworben am"
+  },
+  "types": {
+    "restaurant_owner": "Restaurantbesitzer",
+    "courier": "Kurier"
+  },
+  "vehicles": {
+    "bicycle": "Fahrrad",
+    "motorcycle": "Motorrad",
+    "car": "Auto",
+    "e_bike": "E-Bike",
+    "on_foot": "Zu Fuss"
+  },
+  "filters": {
+    "allStatuses": "Alle Status",
+    "allTypes": "Alle Typen"
+  },
+  "noApplications": "Keine Bewerbungen gefunden",
+  "messages": {
+    "approved": "Bewerbung erfolgreich genehmigt",
+    "rejected": "Bewerbung erfolgreich abgelehnt"
+  },
+  "rejectModal": {
+    "title": "Bewerbung ablehnen",
+    "description": "Sind Sie sicher, dass Sie die Bewerbung von {{name}} ablehnen möchten?",
+    "reason": "Ablehnungsgrund",
+    "reasonPlaceholder": "Geben Sie den Grund für die Ablehnung ein..."
+  }
+}

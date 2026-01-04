@@ -1,0 +1,79 @@
+{
+  "title": "Gestion des utilisateurs",
+  "fields": {
+    "name": "Nom",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "roles": "Rôles",
+    "status": "Statut",
+    "verification": "Vérification",
+    "verified": "Vérifié",
+    "unverified": "Non vérifié",
+    "active": "Actif",
+    "lastLogin": "Dernière connexion",
+    "createdAt": "Créé le",
+    "language": "Langue",
+    "password": "Mot de passe"
+  },
+  "filters": {
+    "searchPlaceholder": "Rechercher par nom ou e-mail...",
+    "allStatuses": "Tous les statuts"
+  },
+  "sort": {
+    "newestFirst": "Plus récents",
+    "oldestFirst": "Plus anciens",
+    "nameAZ": "Nom A–Z",
+    "nameZA": "Nom Z–A",
+    "lastLogin": "Dernière connexion"
+  },
+  "list": {
+    "results": "utilisateurs"
+  },
+  "stats": {
+    "total": "Total",
+    "active": "Actifs",
+    "verified": "Vérifiés",
+    "newLast30Days": "Nouveaux (30 jours)"
+  },
+  "detail": {
+    "title": "Détails de l'utilisateur",
+    "loading": "Chargement de l'utilisateur...",
+    "userInfo": "Informations utilisateur",
+    "roles": "Rôles",
+    "permissions": "Permissions",
+    "manageRoles": "Gérer les rôles",
+    "noRoles": "Aucun rôle attribué",
+    "noPermissions": "Aucune permission"
+  },
+  "form": {
+    "createTitle": "Créer un nouvel utilisateur",
+    "editTitle": "Modifier l'utilisateur",
+    "firstNamePlaceholder": "Entrer le prénom",
+    "lastNamePlaceholder": "Entrer le nom de famille",
+    "emailPlaceholder": "Entrer l'adresse e-mail",
+    "passwordPlaceholder": "Entrer le mot de passe",
+    "phonePlaceholder": "+41 XX XXX XX XX",
+    "selectRole": "Sélectionner un rôle..."
+  },
+  "actions": {
+    "createUser": "Créer un utilisateur",
+    "activate": "Activer",
+    "suspend": "Suspendre",
+    "removeRole": "Retirer le rôle"
+  },
+  "messages": {
+    "created": "Utilisateur créé avec succès",
+    "updated": "Utilisateur mis à jour avec succès",
+    "deleted": "Utilisateur supprimé avec succès",
+    "activated": "Utilisateur activé avec succès",
+    "suspended": "Utilisateur suspendu avec succès",
+    "roleAssigned": "Rôle attribué avec succès",
+    "roleRemoved": "Rôle retiré avec succès",
+    "allRolesAssigned": "Tous les rôles disponibles sont attribués",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer {{name}} ? Cette action est irréversible.",
+    "confirmActivate": "Activer l'utilisateur {{name}} ?",
+    "confirmSuspend": "Suspendre l'utilisateur {{name}} ? L'accès à la plateforme sera révoqué."
+  }
+}
