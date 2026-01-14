@@ -1,0 +1,22 @@
+services:
+  admin-panel:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: justeat_admin_dev
+    restart: unless-stopped
+    ports:
+      - '5175:5175'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=/api/v1
+      - API_PROXY_TARGET=http://justeat_api:4005
+    networks:
+      - justeat_network
+
+networks:
+  justeat_network:
+    external: true
+    name: justeat_network
