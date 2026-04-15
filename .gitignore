@@ -39,3 +39,6 @@ coverage
 
 # TypeScript
 *.tsbuildinfo
+
+# Production secrets (use .env.production.example as template)
+.env.production

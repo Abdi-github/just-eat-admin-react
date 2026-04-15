@@ -1,0 +1,32 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: justeat_admin_prod
+    restart: unless-stopped
+    ports:
+      - "5175:80"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - justeat_network
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.justeat-admin.rule=Host(`justeat-admin.swiftapp.ch`)"
+      - "traefik.http.routers.justeat-admin.entrypoints=websecure"
+      - "traefik.http.routers.justeat-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.services.justeat-admin.loadbalancer.server.port=80"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  justeat_network:
+    external: true
+  traefik:
+    external: true

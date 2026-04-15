@@ -111,9 +111,11 @@ export function Sidebar() {
       })}
     >
       <div className="sidebar-header d-flex align-items-center justify-content-between p-3">
-        <span className="sidebar-brand text-white fw-bold">
-          {sidebarCollapsed ? 'JE' : 'Just Eat Admin'}
-        </span>
+        {sidebarCollapsed ? (
+          <span className="sidebar-brand text-white fw-bold">JE</span>
+        ) : (
+          <img src="/logo.svg" alt="Just Eat" style={{ height: 28, filter: 'brightness(0) invert(1)' }} />
+        )}
         <button
           className="btn btn-link text-white p-0"
           onClick={() => dispatch(toggleSidebar())}
